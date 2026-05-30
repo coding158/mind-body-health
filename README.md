@@ -1,8 +1,69 @@
-# mind-body-health
 # 身心健康体系：中医与佛理的知识交集
+# A Body-Mind Health System: Where TCM Meets Buddhist Practice
 
 > 基于《人体使用手册》与《了凡四训》，结合楞严经转触实践
-> 开源项目初稿 · 智能体陪伴探索 · 欢迎参与反馈与共建
+> 开源项目 · 智能体陪伴探索 · 见修行同步反馈 · 欢迎参与共建
+>
+> Based on *The Human Body Owner's Manual* and *Liao Fan's Four Lessons*,
+> integrated with the sense-redirection practice of the Śūraṅgama Sūtra.
+> Open-source · AI-companion exploration · community-built.
+
+---
+
+## 八字心法 · The Eight Characters
+
+> **快乐 · 动手 · 开源 · 分享**
+> **Joy · Hands-On · Open-Source · Sharing**
+
+这八个字是整个项目的魂。每一个都是对治——
+快乐对治苦修，动手对治空想，开源对治封闭，分享对治执著。
+
+These eight characters are the soul of this project. Each is a remedy —
+joy against ascetic self-punishment, hands-on against empty thinking,
+open-source against closing off, sharing against clinging.
+
+详见 → [`docs/PHILOSOPHY-八字心法.md`](docs/PHILOSOPHY-八字心法.md)
+
+---
+
+## 体系的四层结构 · The Four Layers
+
+这个项目不是一套方法的集合，而是一个有统一内核的体系。
+从任何一层进入，最终都通向同一个中心。
+
+This is not a collection of methods, but a system with a unified core.
+Enter from any layer, and you arrive at the same center.
+
+| 层 Layer | 文档 Document | 一句话 In a line |
+|----------|--------------|-----------------|
+| **魂 Soul** | [`PHILOSOPHY-八字心法`](docs/PHILOSOPHY-八字心法.md) | 快乐、动手、开源、分享——为什么走这条路 |
+| **理 Principle** | [`PRINCIPLE-回归与转换`](docs/PRINCIPLE-回归与转换.md) | 一切方法 = 回归 + 转换；转换不是「给糖」 |
+| **境 State** | [`AWARENESS-觉知与六触`](docs/AWARENESS-觉知与六触.md) | 看见六触在转，看着的那个始终在 |
+| **术 Technique** | 本文档以下各章节 | 转触、辟谷、食疗等具体入口 |
+
+> 完整索引 → [`docs/00-体系总索引.md`](docs/00-体系总索引.md)
+> 智能体 → [`agents/`](agents/)（觉知陪伴智能体等）
+
+**怎么读：** 第一次接触的人，从「术」往上读——先有实践体验，再理解背后的理与魂；
+已有实践的人，从「魂」往下读——先看懂内核，再看每个方法都是同一内核的不同入口。
+
+---
+
+## 如何参与 · How to Participate
+
+- **提 Issue / Discussion**：分享你卡住的问题，或不同的理解
+- **提 PR**：补充你的实践经验，哪怕只是一段真实记录（见 [`practice-records/TEMPLATE.md`](practice-records/TEMPLATE.md)）
+- **推荐书目**：在 [`reading-list.md`](reading-list.md) 中补充
+
+> 最有价值的贡献不是理论，是你真实走过的那段路——包括走偏的部分。
+> The most valuable contribution is not theory, but the path you actually walked — including the wrong turns.
+
+---
+
+> ⚠️ **边界说明**：本项目是实践记录与探索，不是医疗或心理治疗建议。
+> 严重疾病请就医，深度修行请寻访善知识，心理危机请寻求专业支持。
+> This project is practice-sharing and exploration, not medical or psychological advice.
+> For serious illness, see a doctor; for deep practice, find a qualified teacher; in crisis, seek professional help.
 
 -----
 
