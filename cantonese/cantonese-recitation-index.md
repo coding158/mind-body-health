@@ -67,7 +67,7 @@ GitHub Markdown 不渲染 `<audio>` 播放器,故用清晰链接:
 | ⬜ | 《黄帝内经·上古天真论》节选 | [`classics/tcm/huangdi-neijing-ch1.md`] | _待填_ |
 | ⬜ | 《了凡四训·立命之学》核心段 | [`classics/buddhism/liaofan-establishing-destiny.md`] | _待填_ |
 | ⬜ | 《楞严经》六根觉性段（卷六文殊偈） | [`classics/buddhism/surangama-six-faculties.md`] | _待填_ |
-| ⬜ | 准提咒（含唵部林） | [`classics/buddhism/cundi-mantra.md`] | _待填_ |
+| ⬜ | 准提咒（含唵部林） | [`classics/buddhism/cundi-mantra.md`] | _[准提咒](https://github.com/coding158/mind-body-health/releases/download/cantonese-2026/202606022146_1780494713.m4a)_ |
 
 > 建议起步顺序:**先录《心经》或《道德经》第五章**——都短、都核心、都适合作为"声音名片"。
 > 录顺了,再逐步补长篇。不求快,一篇一篇来,这正是"动手"二字。
