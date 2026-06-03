@@ -63,7 +63,7 @@ GitHub Markdown 不渲染 `<audio>` 播放器,故用清晰链接:
 | 状态 | 篇目 | 对应文字 | 录音链接 |
 |------|------|---------|---------|
 | ⬜ | 《道德经》第五章（橐籥章） | [`classics/taoism/daodejing-ch5.md`] | _待填_ |
-| ⬜ | 《心经》（全篇,短,适合先录） | _公版_ | _待填_ |
+| ✅ | 《心经》（全篇,短,适合先录） | _公版_ | _[心经](https://github.com/coding158/mind-body-health/releases/download/cantonese-20260603/202606032257_1780498671.m4a)_ |
 | ⬜ | 《黄帝内经·上古天真论》节选 | [`classics/tcm/huangdi-neijing-ch1.md`] | _待填_ |
 | ⬜ | 《了凡四训·立命之学》核心段 | [`classics/buddhism/liaofan-establishing-destiny.md`] | _待填_ |
 | ⬜ | 《楞严经》六根觉性段（卷六文殊偈） | [`classics/buddhism/surangama-six-faculties.md`] | _待填_ |
