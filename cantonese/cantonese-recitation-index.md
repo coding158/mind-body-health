@@ -79,7 +79,7 @@ GitHub Markdown 不渲染 `<audio>` 播放器,故用清晰链接:
 ```markdown
 ### 《道德经》第五章 · 粤语诵读
 
-🎧 [点击收听（MP3，约 2 分钟）]([https://archive.org/details](https://github.com/coding158/mind-body-health/releases/download/cantonese-2026/](https://github.com/coding158/mind-body-health/releases/download/cantonese-2026/your-upload-id)
+🎧 [点击收听（MP3，约 2 分钟）][https://github.com/coding158/mind-body-health/releases/download/cantonese-2026/](https://github.com/coding158/mind-body-health/releases/download/cantonese-2026/your-upload-id)
 
 > 天地之间，其犹橐籥乎？虚而不屈，动而愈出。
 > 对应文字与版本对照见 classics/taoism/daodejing-ch5.md
