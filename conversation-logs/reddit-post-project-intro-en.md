@@ -28,7 +28,7 @@ Same loop. Two doors. The body creates conditions for awareness. Awareness prote
 
 I started writing it down. Practice notes — fasting experiences, ten years of vegetarian eating, how different teas and foods affected my state. Fragments from the classics that had actually mattered, not the ones I was "supposed" to quote. And a philosophy that slowly crystallized — not from thinking about it, but from living it.
 
-A few months ago, I sat down and organized everything into a single place. What came out is an open-source repository on GitHub. No app, no course, no newsletter. Just what I walked through, laid out for anyone who might find it useful.
+A few months ago, I sat down and organized everything into one place. No app, no course, no newsletter. Just what I walked through, written down — so if it helps someone, it's there.
 
 ---
 
@@ -76,7 +76,7 @@ I gave it a simple root instruction:
 
 That instruction — along with clear boundaries about what it should and shouldn't do — turned it into something useful. Not a teacher. Not an authority. A companion that reflects your own experience back a little clearer, points to what the classics say, and then gets out of the way.
 
-The prompt itself is in the repo (`CLAUDE.md`). If you practice in a different tradition, you can take it and adapt it. The structure — hard safety boundaries, clear source labeling (public classic / personal experience / contested view / "I don't know"), and a rule against giving easy answers — is designed to be reusable.
+The prompt structure — hard safety boundaries, clear source labeling (public classic / personal experience / contested view / "I don't know"), and a rule against giving easy answers — is something anyone can adapt to their own tradition.
 
 ---
 
@@ -98,14 +98,13 @@ Before sharing any of this publicly, I spent time on r/streamentry and r/Meditat
 
 ## What's actually in there
 
-- **Practice records** — ten years vegetarian, fasting personal experience, tea and food effects on body/mind. All marked as personal, not universal.
+**Practice records** — ten years vegetarian, fasting personal experience, tea and food effects on body/mind. All marked as personal, not universal.
 - **Classical excerpts** — key passages from the Śūraṅgama Sūtra, Liao Fan's Four Lessons, Yellow Emperor's Classic, Dao De Jing, Diamond Sutra, Platform Sutra, Lü Dongbin's Hundred-Character Tablet. Chinese and English side by side.
 - **The philosophy written out** — the four-layer framework, the Eight Characters in detail, the "return and redirect" principle.
 - **Crisis resources** — human-verified hotline numbers (because if someone in crisis finds this, the only right response is real help, not practice-talk).
 - **Cantonese recitation audio** — Heart Sutra and Cundi Mantra.
-- **SQ research** — Spiritual Intelligence: Western scales plus an experimental Eastern five-dimension design based on TCM and Confucian/Buddhist/Daoist principles.
 
-It's all at [github.com/coding158/mind-body-health](https://github.com/coding158/mind-body-health). CC-BY-4.0.
+If any of this resonates — my profile has the full practice notes. No product, no paywall. Just what I walked through.
 
 ---
 
