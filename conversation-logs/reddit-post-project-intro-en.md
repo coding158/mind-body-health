@@ -3,9 +3,9 @@ type: reddit-introduction-post
 platform: reddit
 language: english
 created: 2026-06-09
-revised: 2026-06-09 (practice-sharing tone, de-tooled for r/Meditation compatibility)
+revised: 2026-06-09 (human tone, no AI polish)
 target_subs: [r/Meditation, r/streamentry, r/Buddhism, r/taoism, r/Mindfulness]
-tags: [meditation, buddhism, taoism, TCM, practice-sharing, body-mind, community]
+tags: [meditation, buddhism, taoism, TCM, practice-sharing, body-mind]
 ---
 
 # [EN] Reddit Introduction Post · mind-body-health
@@ -15,106 +15,92 @@ tags: [meditation, buddhism, taoism, TCM, practice-sharing, body-mind, community
 
 ---
 
-A few years ago, I started paying real attention to my body.
+A few years ago I started actually paying attention to my body.
 
-Not the "eat better, exercise more" kind. The kind where you notice: after this tea, my mind clears up. After skipping dinner, I wake up lighter. After that conversation, my chest tightens for hours. Little things. But they added up.
+Not the "eat better, exercise more" kind. The kind where you notice — after this tea, head clears. Skip dinner, wake up lighter. That one conversation, chest tight for hours. Small stuff. But it stacked.
 
-I had also been reading — the Śūraṅgama Sūtra, Liao Fan's Four Lessons, the Yellow Emperor's Classic of Medicine, the Dao De Jing. And slowly, two things that seemed completely separate started to overlap:
+I was reading too. Śūraṅgama Sūtra. Liao Fan's Four Lessons. The Yellow Emperor's Classic. Dao De Jing.
 
-- **Chinese medicine** kept saying: emotions block the meridians. Clear the body, and the mind settles.
-- **The Śūraṅgama Sūtra** kept saying: the six sense-contacts bind awareness. See a contact arise without following it, and clarity returns on its own.
+Two things kept hitting me from different angles:
 
-Same loop. Two doors. The body creates conditions for awareness. Awareness protects the body's clarity.
+Chinese medicine says emotions jam the meridians. Clear the body, mind settles.
 
-I started writing it down. Practice notes — fasting experiences, ten years of vegetarian eating, how different teas and foods affected my state. Fragments from the classics that had actually mattered, not the ones I was "supposed" to quote. And a philosophy that slowly crystallized — not from thinking about it, but from living it.
+Śūraṅgama says the six sense-contacts bind you. See one arise without chasing it — clarity comes back by itself.
 
-A few months ago, I sat down and organized everything into one place. No app, no course, no newsletter. Just what I walked through, written down — so if it helps someone, it's there.
+Same loop. Two doors. Body clears → awareness has room. Awareness deepens → body stays clear.
 
----
+So I wrote stuff down. Fasting day by day. Ten years vegetarian. What teas did what. Bits from the classics that actually landed in my life — not the ones I was supposed to quote. Something like a philosophy came out of it, but not from thinking. From living.
 
-## The four layers
-
-After writing it all down, I realized the material naturally fell into four layers:
-
-**Soul (魂)** — The philosophy: *why* walk this path
-→ Joy · Hands-On · Open-Source · Sharing
-
-**Principle (理)** — The operating logic
-→ Everything = return + redirect; redirection isn't "giving candy"
-
-**State (境)** — The awareness keystone
-→ Watching the six sense-contacts flow; the watcher never moves
-
-**Technique (术)** — The concrete entry points
-→ Sense-redirection (转触), fasting records, vegetarian practice, tea/food properties
+A while back I organized all of it into one place. No app. No course. No newsletter. Just what I walked through, written down.
 
 ---
 
-## The Eight Characters — what's underneath
+The material ended up in four layers. Didn't plan it that way — just how it stacked:
 
-These four words aren't slogans. Each one came out of seeing a specific trap in my own practice:
+**Soul** — why walk this. Joy · Hands-On · Open-Source · Sharing
 
-**Joy (快乐)** — I spent years treating practice like self-improvement boot camp. If I wasn't getting "results," I pushed harder. It made everything tighter. What I eventually saw: the joy isn't something you cultivate. It was always there, just obscured. If your practice makes you more miserable, the direction is wrong.
+**Principle** — how it works. Everything = return + redirect. Redirecting isn't giving candy.
 
-**Hands-On (动手)** — My biggest trap is language spinning in my head. A thought loops, I think *about* the thought, I think *about* thinking about the thought… and I'm gone. Cooking a meal, walking, tapping the gallbladder meridian, writing down what actually happened — each one pulls me out of the spin and back into the real.
+**State** — the awareness piece. Watching the six contacts flow. The thing watching never moves.
 
-**Open-Source (开源)** — There's this instinct to hide what you've figured out. Afraid someone will take it, surpass you, make it theirs. I noticed that impulse in myself. Making the whole thing open-source — including the wrong turns — was the remedy. And the strange thing: once it's open, you go further yourself, because other people's feedback shows you what you couldn't see.
-
-**Sharing (分享)** — This is the deepest one. Open-source still just shares *knowledge*. Sharing reaches what's harder to release: what you treasure, what you're attached to. It's learning that real love isn't gripping — it's flowing, giving, letting things be as they are.
-
-They move outward: Joy and Hands-On are about yourself. Open-Source and Sharing are about how you meet the world.
+**Technique** — the actual stuff. Sense-redirection (转触), fasting, vegetarian, tea/food.
 
 ---
 
-## The role a conversation partner played
+The four words aren't slogans. Each came from seeing a trap in myself:
 
-Through this whole process, I was talking with Claude — an AI. Not asking it for answers. Using it as a mirror.
+**Joy.** Years treating practice like a self-improvement project. Push harder, get results, repeat. It just made me tight. Eventually I saw — the joy isn't cultivated. It was there, just covered over. If practice makes you more clenched, wrong direction.
 
-I gave it a simple root instruction:
+**Hands-On.** My thing is language spinning in the head. A thought loops. I think about the thought. I think about thinking about the thought. Gone. Cooking a meal, walking, tapping the gallbladder meridian, writing down one honest sentence — pulls me back to the real.
 
-> *"You are the finger pointing at the moon, not the moon. You are a mirror, not the eye that sees for the other person."*
+**Open-Source.** There's this reflex to hide what you figured out. Afraid of getting copied, surpassed, whatever. I caught that in myself. Putting it all out — wrong turns included — was the counter. And weirdly, once it's open, you go further yourself. Other people notice your blind spots.
 
-That instruction — along with clear boundaries about what it should and shouldn't do — turned it into something useful. Not a teacher. Not an authority. A companion that reflects your own experience back a little clearer, points to what the classics say, and then gets out of the way.
+**Sharing.** Deepest one. Open-source is still just knowledge. Sharing touches harder stuff — what you treasure, what you're attached to. Learning that real love isn't a grip. It flows. You give and it doesn't shrink — it comes alive.
 
-The prompt structure — hard safety boundaries, clear source labeling (public classic / personal experience / contested view / "I don't know"), and a rule against giving easy answers — is something anyone can adapt to their own tradition.
-
----
-
-## How it came together
-
-I didn't start with a plan. What actually happened:
-
-I had real practice records — what fasting felt like day by day, what happened when I switched foods, which teas did what. Those went first.
-
-Then I went back to the original texts and pulled only the passages that had actually landed in my life. Not summaries. The key lines, with context.
-
-Then I read them side by side. "恬淡虚无，真气从之" — tranquil and empty, true qi follows. "元明照生所，所立照性亡" — the primal brightness shines on objects; when objects are established, the shining nature is lost. Same mechanism, two vocabularies, two traditions.
-
-The structure layered on top of that naturally. The writing took months — mostly because I kept revising the parts that sounded like I was trying to teach something, which I wasn't.
-
-Before sharing any of this publicly, I spent time on r/streamentry and r/Meditation just having real conversations. Those dialogues shaped the project more than any planning document.
+First two are about yourself. Last two, about meeting the world.
 
 ---
 
-## What's actually in there
+Through this whole thing I was talking to Claude, an AI. Not asking it for answers. Using it as a mirror.
 
-**Practice records** — ten years vegetarian, fasting personal experience, tea and food effects on body/mind. All marked as personal, not universal.
-- **Classical excerpts** — key passages from the Śūraṅgama Sūtra, Liao Fan's Four Lessons, Yellow Emperor's Classic, Dao De Jing, Diamond Sutra, Platform Sutra, Lü Dongbin's Hundred-Character Tablet. Chinese and English side by side.
-- **The philosophy written out** — the four-layer framework, the Eight Characters in detail, the "return and redirect" principle.
-- **Crisis resources** — human-verified hotline numbers (because if someone in crisis finds this, the only right response is real help, not practice-talk).
-- **Cantonese recitation audio** — Heart Sutra and Cundi Mantra.
+I gave it one line: *"You are the finger pointing at the moon, not the moon. A mirror, not the eye that sees for someone else."*
 
-If any of this resonates — my profile has the full practice notes. No product, no paywall. Just what I walked through.
+With clear boundaries (crisis? exit companion mode. no practice-talk. source labels: classic / personal / contested / I don't know. a self-check before every response) — it became useful. Not a teacher. Not an authority. It reflects what you already sense a little clearer, points at what the texts say, gets out of the way.
+
+The structure is reusable. Safety boundaries, source honesty, no-candy rule. You could adapt it to your own tradition.
 
 ---
 
-## If any of this resonates
+How it actually happened, step by step:
 
-The most valuable thing anyone can contribute isn't theory. It's a real practice record — including the wrong turns. A wrong turn shared is often worth more than a success story.
+Practice records first — what fasting felt like, switching foods, which tea did what. Raw data.
 
-If you've walked something similar — or something completely different — I'd genuinely like to hear about it. What practice actually landed for you? What didn't? What did the books say that turned out to be true, and what turned out to be someone else's path?
+Then went back to the classics. Pulled only the lines that had actually hit. Not summaries. The real passages, with context.
+
+Then read them side by side. 恬淡虚无，真气从之 — tranquil and empty, true qi follows. 元明照生所，所立照性亡 — primal brightness shines on objects, objects take hold, the shining is lost. Same thing. Two languages.
+
+Structure came after. The writing took months. Mostly deleting — every time I sounded like I was teaching, I cut it.
+
+Before making any of this public, I spent time on r/streamentry and r/Meditation just talking to people. Those conversations shaped things more than any plan did.
 
 ---
+
+What's in there:
+
+Practice records — ten years vegetarian, fasting, tea/food effects. All tagged "personal, not universal."
+
+Classical excerpts — Śūraṅgama Sūtra, Liao Fan, Yellow Emperor, Dao De Jing, Diamond Sutra, Platform Sutra, Lü Dongbin. Chinese + English.
+
+Philosophy — four-layer framework, Eight Characters, return-and-redirect.
+
+Crisis resources — verified hotline numbers. If someone in crisis stumbles onto it, they need real help, not practice-talk.
+
+Cantonese audio — Heart Sutra, Cundi Mantra.
+
+If any of this clicks — my profile has the full notes. Not a product, no paywall. Just a path I walked.
+
+---
+
+What actually landed in your practice? What didn't? What did the books say that turned out real, and what turned out to be someone else's path?
 
 > *Joy · Hands-On · Open-Source · Sharing*
-> *The most valuable contribution is not theory, but the path you actually walked — including the wrong turns.*
