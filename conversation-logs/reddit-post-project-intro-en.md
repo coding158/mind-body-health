@@ -32,12 +32,17 @@ It's not an app. It's not a course. It's a **knowledge base** (classical texts, 
 
 The repo has four layers:
 
-| Layer | What it is | Example |
-|-------|-----------|---------|
-| **Soul** (魂) | The philosophy — *why* walk this path | "Joy · Hands-On · Open-Source · Sharing" |
-| **Principle** (理) | The operating logic | Everything = return + redirect; redirection isn't "giving candy" |
-| **State** (境) | The awareness keystone | Watching the six sense-contacts flow; the watcher never moves |
-| **Technique** (术) | The concrete entry points | Sense-redirection (转触), fasting records, vegetarian practice, tea/food properties |
+**Soul (魂)** — The philosophy: *why* walk this path
+→ "Joy · Hands-On · Open-Source · Sharing"
+
+**Principle (理)** — The operating logic
+→ Everything = return + redirect; redirection isn't "giving candy"
+
+**State (境)** — The awareness keystone
+→ Watching the six sense-contacts flow; the watcher never moves
+
+**Technique (术)** — The concrete entry points
+→ Sense-redirection (转触), fasting records, vegetarian practice, tea/food properties
 
 The core insight is dead simple: **TCM and Buddhism point at the same thing from different angles.**
 
