@@ -129,6 +129,8 @@ So I'm thinking less about it. The quiet after is better than the post would've 
 
 Let it be.
 
+(If any of this resonates, my profile has the full practice notes. Not a product — just what I walked through.)
+
 ---
 
 ## 六、回顾：这一段本身就值得记录
