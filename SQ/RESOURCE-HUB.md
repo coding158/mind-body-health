@@ -12,7 +12,7 @@
 
 ### 方式一：直接在 GitHub 提 Issue（最简单）
 
-去 [Issues](https://github.com/coding158/mind-body-health/issues) → New Issue → 把下面的模板复制粘贴 → 填写 → 提交。标题写 `[SQ资源] <简短描述>`
+去 [Issues](https://github.com/coding158/mind-body-health/issues)（[GitHub](https://github.com/coding158/mind-body-health/issues) · [Gitee](https://gitee.com/coding158/mind-body-health/issues)）→ New Issue → 把下面的模板复制粘贴 → 填写 → 提交。标题写 `[SQ资源] <简短描述>`
 
 ### 方式二：提 Pull Request
 
@@ -20,7 +20,7 @@ Fork → 编辑本文件 → 在对应的表格里加一行 → 提 PR。
 
 ### 方式三：Discussions
 
-如果不确定该不该加，或者想讨论一个资源的价值，去 [Discussions](https://github.com/coding158/mind-body-health/discussions) 开一个帖子。维护者会帮你归类。
+如果不确定该不该加，或者想讨论一个资源的价值，去 [Discussions](https://github.com/coding158/mind-body-health/discussions)（GitHub）开一个帖子，或在 [Issues](https://gitee.com/coding158/mind-body-health/issues)（Gitee）提交。维护者会帮你归类。
 
 ---
 

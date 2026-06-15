@@ -205,7 +205,7 @@ mind-body-health/
 
 ## 本地 vs GitHub 远程仓库 · 差异对照
 
-> 远程仓库：https://github.com/coding158/mind-body-health
+> 远程仓库：https://github.com/coding158/mind-body-health（GitHub）· https://gitee.com/coding158/mind-body-health（Gitee 国内镜像）
 > 对比时间：2026-06-09
 > 状态：本地文件已更新，等待上传至 GitHub
 
@@ -268,5 +268,5 @@ mind-body-health/
 | — | v1.0 | 初始版本（仓库首次上传时创建） |
 
 > **最后更新**：2026-06-09
-> **远程仓库**：[`coding158/mind-body-health`](https://github.com/coding158/mind-body-health)
+> **远程仓库**：[`coding158/mind-body-health`](https://github.com/coding158/mind-body-health)（[GitHub](https://github.com/coding158/mind-body-health) · [Gitee 国内镜像](https://gitee.com/coding158/mind-body-health)）
 > **关联文档**：[`README.md`](README.md) · [`CONTRIBUTING.md`](CONTRIBUTING.md) · [`CLAUDE.md`](CLAUDE.md)

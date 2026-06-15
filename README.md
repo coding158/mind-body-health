@@ -51,7 +51,7 @@ Enter from any layer, and you arrive at the same center.
 
 ## 如何参与 · How to Participate
 
-- **提 Issue / Discussion**：分享你卡住的问题，或不同的理解
+- **提 Issue / Discussion**：分享你卡住的问题，或不同的理解（[GitHub Issues](https://github.com/coding158/mind-body-health/issues) · [Gitee Issues](https://gitee.com/coding158/mind-body-health/issues)）
 - **提 PR**：补充你的实践经验，哪怕只是一段真实记录（见 [`practice-records/TEMPLATE.md`](practice-records/TEMPLATE.md)）
 - **推荐书目**：在 [`reading-list.md`](reading-list.md) 中补充
 
@@ -472,3 +472,16 @@ Enter from any layer, and you arrive at the same center.
 
 阿难需要佛陀在场才能听懂道理，但真正开悟是在佛陀离开后。
 智能体的角色，是陪你走那段路，不是替你走。
+
+---
+
+## 仓库镜像 · Repository Mirrors
+
+| 平台 | 地址 |
+|------|------|
+| GitHub | [github.com/coding158/mind-body-health](https://github.com/coding158/mind-body-health) |
+| Gitee 国内镜像 | [gitee.com/coding158/mind-body-health](https://gitee.com/coding158/mind-body-health) |
+
+国内用户访问 Gitee 更快。两边内容保持一致，每次更新后同步推送。
+
+推送脚本：[`tools/push-all.sh`](tools/push-all.sh)

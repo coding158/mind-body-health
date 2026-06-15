@@ -1,1 +1,15 @@
 .claude/
+
+# Python
+__pycache__/
+
+# Binary/executable files
+*.exe
+*.exe.sha256
+*.res
+*.dll
+*.bin
+
+# 444 本全文 — 已外迁至 D:/Obsidian/xinshidai_library/
+# 只保留目录/元数据公开层
+classics/xinshidai_library/
