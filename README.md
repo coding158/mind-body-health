@@ -567,13 +567,15 @@ OCR 与文本结构化                  最终判断
 
 ---
 
-## 仓库镜像 · Repository Mirrors
+## 相关仓库 · Related Repositories
 
-| 平台 | 地址 |
-|------|------|
-| GitHub | [github.com/coding158/mind-body-health](https://github.com/coding158/mind-body-health) |
-| Gitee 国内镜像 | [gitee.com/coding158/mind-body-health](https://gitee.com/coding158/mind-body-health) |
+| 平台 | 地址 | 当前侧重 |
+|------|------|---------|
+| **GitHub（本仓）** | [github.com/coding158/mind-body-health](https://github.com/coding158/mind-body-health) | 身心健康体系 ＋ **经典数字化与理解文章** |
+| Gitee 国内站 | [gitee.com/coding158/mind-body-health](https://gitee.com/coding158/mind-body-health) | 站点发布、智能体与技能包 |
 
-国内用户访问 Gitee 更快。两边内容保持一致，每次更新后同步推送。
+国内用户访问 Gitee 更快。
 
-推送脚本：[`tools/push-all.sh`](tools/push-all.sh)
+> ⚠️ **同步现状（2026-07-27 更新）**：两仓源自同一项目，但目前**侧重方向不同、部分内容尚未双向同步**——
+> 本仓的《德经》修炼学理解系列与知识工程方法论，Gitee 侧暂未收录；Gitee 侧的站点与技能包内容，本仓亦未收录。
+> 需要哪一部分，请按上表到对应仓库查看。（此前本节写作「两边内容保持一致」，与实况不符，已订正。）
