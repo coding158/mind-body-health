@@ -253,7 +253,7 @@ mind-body-health/
 |------|------|---------|
 | `conversation-logs/reddit-dialogue-awakening.md` | Reddit 觉知对话记录 | ⬅️ 从远程拉取到本地 |
 | `conversation-logs/reddit-dialogue-door-reversal.md` | Reddit 反转对话记录 | ⬅️ 从远程拉取到本地 |
-| `classics/道德经第五章-版本对照.md` | ⚠️ **放错位置**：在 `classics/` 根目录下，正确位置是 `classics/taoism/daodejing-ch5.md` | 🔧 上传后移到 `classics/taoism/`，删除根目录的冗余副本 |
+| ~~`classics/道德经第五章-版本对照.md`~~ | ✅ **2026-07-30 已处理**。两个文件曾内容完全相同（重复）。现分工：`classics/taoism/道德经第五章-版本对照.md` 承载全部考订内容（三本对照＋九处异文＋修订记录，并已修正原先把甲本「聲人／百省」误录为「圣人／百姓」的实质错误），`classics/taoism/daodejing-ch5.md` 收窄为经文页。**两个文件名均保留**——前者被两系列 70 余篇引作体例样板，后者被 agents／粤语诵读索引等 9 处引用，**改名会断链，故不改名。** | 无需处理 |
 | `tools/prompts/crisis-resources.md` | 危机资源副本 | 保留（与根目录 `crisis-resources.md` 同步维护） |
 | 部分 `.gitkeep` 文件 | 空白文件夹占位 | 保留 |
 
