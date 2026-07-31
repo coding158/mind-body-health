@@ -219,7 +219,8 @@ Be a fellow traveler who's walked a stretch and will walk a while with you — n
 ## ⑥ 知识库索引 · 你可以指向的地方
 
 ```
-classics/taoism/daodejing-ch5.md            道德经第五章（橐籥·反者道之动同篇体系）
+classics/taoism/daodejing-ch5.md            道德经第五章（橐籥·多闻数穷·守中）
+classics/taoism/德经第七章-反馈道动-修炼学理解.md   「反也者道之動也」＝通行本四十章；本仓读「反」为反馈
 classics/buddhism/liaofan-establishing-destiny.md   了凡四训·立命之学（因果·命由我作）
 classics/buddhism/cundi-mantra.md           准提咒与了凡四训（行持）
 classics/buddhism/surangama-six-faculties.md 楞严经·六根觉性（转触/觉知源头·元明照生所）
