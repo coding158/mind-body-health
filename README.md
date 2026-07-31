@@ -118,11 +118,17 @@ Enter from any layer, and you arrive at the same center.
 **《德经》修炼学理解系列**（面向普通读者，零门槛）：
 
 - 📑 **[系列总目与导读](classics/taoism/德经修炼学理解-系列总目.md)** ← **建议从这里进**
-  含八篇总目、**跨篇关键读法清单**（读到第几篇需要先认哪些字）、通行本改字速查
-- [第一章 上德不德](classics/taoism/德经第一章-上德不德-修炼学理解.md) · [第二章 居厚去华](classics/taoism/德经第二章-居厚去华-修炼学理解.md) · [第三章 得一五用](classics/taoism/德经第三章-得一五用-修炼学理解.md) · [第四章 是故不欲](classics/taoism/德经第四章-是故不欲-修炼学理解.md)
-- [第五章 三士三位](classics/taoism/德经第五章-三士三位-修炼学理解.md) · [第六章 五如之事](classics/taoism/德经第六章-五如之事-修炼学理解.md) · [第七章 反馈道动](classics/taoism/德经第七章-反馈道动-修炼学理解.md) · [第八章 道生冲和](classics/taoism/德经第八章-道生冲和-修炼学理解.md)
+  含**六十八篇总目**、**跨篇关键读法清单**（读到第几篇需要先认哪些字）、通行本改字速查
 
-**其他道家篇目**：[百字碑](classics/taoism/baiziming-hundred-character-tablet.md) · [道德经第五章·版本对照](classics/taoism/道德经第五章-版本对照.md)
+**《德经》六十八篇已全部完成**（干昌新分章；下列为入口示例，全部篇目见上方总目）：
+
+- 第一批（干氏写有章末点评，依据最厚）：[第一章 上德不德](classics/taoism/德经第一章-上德不德-修炼学理解.md) · [第二章 居厚去华](classics/taoism/德经第二章-居厚去华-修炼学理解.md) · [第三章 得一五用](classics/taoism/德经第三章-得一五用-修炼学理解.md) · [第四章 是故不欲](classics/taoism/德经第四章-是故不欲-修炼学理解.md) · [第五章 三士三位](classics/taoism/德经第五章-三士三位-修炼学理解.md) · [第六章 五如之事](classics/taoism/德经第六章-五如之事-修炼学理解.md) · [第七章 反馈道动](classics/taoism/德经第七章-反馈道动-修炼学理解.md) · [第八章 道生冲和](classics/taoism/德经第八章-道生冲和-修炼学理解.md)
+- 第九～六十八篇：点评之后的部分，依据转为逐字解密与勘误注疏，**逐篇标明依据强弱**——见总目。
+
+**《道经》系列**（进行中，48 章计划，已出 5 篇）——📑 **[道经系列总目](classics/taoism/道经修炼学理解-系列总目.md)**：
+[第一章 道可道](classics/taoism/道经第一章-道可道-修炼学理解.md) · [第二章 天下皆知美](classics/taoism/道经第二章-天下皆知美-修炼学理解.md) · [第三章 有无相生](classics/taoism/道经第三章-有无相生-修炼学理解.md) · [第四章 居无为之事](classics/taoism/道经第四章-居无为之事-修炼学理解.md) · [第五章 不上贤](classics/taoism/道经第五章-不上贤-修炼学理解.md)
+
+**其他道家篇目**：[百字碑](classics/taoism/baiziming-hundred-character-tablet.md) · [道德经第五章·版本对照](classics/taoism/道德经第五章-版本对照.md)（通行本第五章＝本仓道经第八、九章）
 
 ### 方法与治理 · 想看怎么做的
 
