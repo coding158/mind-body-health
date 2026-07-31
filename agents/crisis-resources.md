@@ -1,6 +1,18 @@
 # 危机求助资源 · Crisis Resources
 # 人工维护 · Human-Maintained
 
+> ## 📍 正源在根目录 [`crisis-resources.md`](../crisis-resources.md)　·　本页是**必须逐字同步的副本**
+>
+> **改号码只改正源，再把本页整体覆盖同步。两处必须逐字一致。**
+>
+> **为什么本页不像 `tools/prompts/` 那些副本一样收窄为指针**：
+> ① 这是**安全关键**文件——`agents/Router.md` 明确要求「热线号码只从 `agents/crisis-resources.md` 逐字引用」，
+> `agents/Psychology-Master.md` 亦以相对路径引用；**指针会在最不该出问题的地方多一层解析**。
+> ② 提示词正源 [`CLAUDE.md`](../CLAUDE.md) 位于根目录，其「只能逐字引用 `crisis-resources.md`」解析到的是**正源**；
+> `agents/` 下各 Master 解析到的是本页。**两条路径都必须能直接读到号码。**
+>
+> 📅 上次同步核对：2026-07-31（与正源逐字一致）。
+
 > ⚠️ **这份文件的使用守则,优先于一切 · Usage Protocol — Overrides Everything**
 >
 > 1. **这份名单由人工维护。** 危机热线号码会变动(停用、合并、新开),

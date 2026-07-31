@@ -92,15 +92,21 @@ mind-body-health/
 │   │   └── Heart Sūtra Key Passages.md            # 心经·关键段落（英文）
 │   │
 │   └── taoism/                        # 道家经典
-│       ├── daodejing-ch5.md                       # 道德经第五章（橐籥·反者道之动·多闻数穷）
+│       ├── daodejing-ch5.md                       # 道德经第五章（橐籥·多闻数穷·守中）
 │       ├── 道德经第五章-版本对照.md                   # 同文件中文命名版
 │       ├── baiziming-hundred-character-tablet.md  # 吕祖百字铭（养气忘言守·降心为不为）
 │       │
-│       ├── 德经修炼学理解-系列总目.md                  # ★系列入口：八篇总目 + 跨篇关键读法清单
+│       ├── 德经修炼学理解-系列总目.md                  # ★系列入口：六十八篇总目 + 跨篇关键读法清单
 │       │                                          #   + 通行本改字速查 + 阅读提示
-│       └── 德经第一~八章-XXXX-修炼学理解.md            # 《德经》修炼学理解系列（8 篇）
-│           # 第一章 上德不德 / 第二章 居厚去华 / 第三章 得一五用 / 第四章 是故不欲
-│           # 第五章 三士三位 / 第六章 五如之事 / 第七章 反馈道动 / 第八章 道生冲和
+│       ├── 德经第一~六十八章-XXXX-修炼学理解.md         # 《德经》修炼学理解系列（68 篇，已全部完成）
+│           # 第一~八篇：干氏写有章末点评（依据最厚）
+│           #   第一章 上德不德 / 第二章 居厚去华 / 第三章 得一五用 / 第四章 是故不欲
+│           #   第五章 三士三位 / 第六章 五如之事 / 第七章 反馈道动 / 第八章 道生冲和
+│           # 第九~六十八篇：点评之后，依据转为逐字解密与勘误注疏，逐篇标明强弱
+│       ├── 道经修炼学理解-系列总目.md                  # ★道经系列入口（48 章计划）
+│       └── 道经第一~五章-XXXX-修炼学理解.md            # 《道经》系列（进行中，已出 5 篇）
+│           # 第一章 道可道 / 第二章 天下皆知美 / 第三章 有无相生 /
+│           # 第四章 居无为之事 / 第五章 不上贤
 │           # 六段体例：原文 / 关键字义（转述并标出处）/ 逐句白话 / 义理串讲 /
 │           #           实践对照（Layer 4，单独标注）/ 文末指路
 │           # 铁律：经文用公版文本；现代解释者训释一律转述，不照录其著作文句
@@ -209,6 +215,36 @@ mind-body-health/
 
 ---
 
+## ⭐ 正源登记表 · Single Source of Truth
+
+> **本仓有若干文件同时存在多份同名／同内容副本**（历史原因：`agents/` 与 `tools/prompts/` 各留过一套，中英文名再各一份）。
+> **2026-07-31 收敛**：每组只留**一份正源**，其余**收窄为指针页**；**文件名一律保留，既有链接不断。**
+>
+> **📌 铁律：只改正源。** 在指针页上编辑等于白改——下一个人仍会读到正源。
+
+| 内容 | ⭐ 正源（唯一可编辑） | 📍 指针页 / 同步副本 |
+|---|---|---|
+| **v2 系统提示词** | [`CLAUDE.md`](CLAUDE.md) | `agents/awareness-companion-v2-prompt.md`<br>`tools/prompts/awareness-companion-v2-prompt.md`<br>`tools/prompts/觉知陪伴智能体-v2系统提示词.md` |
+| **v2 计划书** | [`agents/觉知陪伴智能体-v2计划书.md`](agents/觉知陪伴智能体-v2计划书.md) | `tools/prompts/awareness-companion-v2-plan.md`<br>`tools/prompts/觉知陪伴智能体-v2计划书.md` |
+| **危机求助资源** | [`crisis-resources.md`](crisis-resources.md) | `agents/crisis-resources.md`（**逐字同步副本，不是指针**——安全关键，见该页说明） |
+| **道德经第五章** | [`classics/taoism/道德经第五章-版本对照.md`](classics/taoism/道德经第五章-版本对照.md)（承载考订） | `classics/taoism/daodejing-ch5.md`（收窄为经文页，2026-07-30） |
+| **八字心法** | [`docs/PHILOSOPHY-八字心法.md`](docs/PHILOSOPHY-八字心法.md) | 根目录 `PHILOSOPHY-八字心法.md` |
+
+### 为什么正源是 `CLAUDE.md` 而不是 `agents/` 下那份
+
+1. **运行时实际加载的是根目录 `CLAUDE.md`**，副本不参与运行；
+2. **⛔ 安全原因**：提示词中「热线号码只能逐字引用 `crisis-resources.md`」是**相对路径**——
+   在根目录解析到**人工核实的正源名单**；若正文置于 `agents/`，同一句会解析到同步副本。
+   **安全关键文件不应经由副本解析。**
+
+### 这次收敛的由来
+
+2026-07-31 修订「反者道之动」时发现：改一处而其余副本照旧，**同一错误在仓内并存 4 份**。
+更严重的是——`tools/prompts/` 下两份提示词副本**落后正源 12 行，缺失整段「⛔ 热线号码硬规则·最高优先」**，
+**照其部署会得到缺少该安全约束的智能体**。多副本不是冗余备份，**是安全隐患**。
+
+---
+
 > 不确定放哪里，就直接发到 Discussions。
 > 位置可以调整，记录不能丢。
 
@@ -224,12 +260,12 @@ mind-body-health/
 
 | 路径 | 说明 |
 |------|------|
-| `CLAUDE.md` | 觉知陪伴 v2 系统提示词（智能体根配置） |
+| `CLAUDE.md` | ⭐ **提示词正源**——觉知陪伴 v2 系统提示词（智能体根配置） |
 | `PHILOSOPHY-八字心法.md` | 八字心法根目录副本（`docs/` 下为主文件） |
 | `agents/AGENT-觉知陪伴智能体.md` | 智能体路由与部署说明 |
-| `agents/awareness-companion-v2-prompt.md` | 英文版 v2 提示词 |
-| `agents/crisis-resources.md` | 智能体专用危机资源副本 |
-| `agents/觉知陪伴智能体-v2计划书.md` | v2 中文计划书 |
+| `agents/awareness-companion-v2-prompt.md` | 📍 指针页 → `CLAUDE.md`（2026-07-31 收窄） |
+| `agents/crisis-resources.md` | 危机资源**逐字同步副本**（正源为根目录同名文件；安全关键，故不收窄为指针） |
+| `agents/觉知陪伴智能体-v2计划书.md` | ⭐ **计划书正源**（v2 中文计划书） |
 | `cantonese/准提咒粤语版202606022146_1780494713.m4a` | 准提咒粤语诵读音档 |
 | `cantonese/心经粤语版202606032257_1780498671.m4a` | 心经粤语诵读音档 |
 | `classics/buddhism/dashizhi-nianfo-perfect-penetration.md` | 大势至菩萨念佛圆通章 |
@@ -254,7 +290,7 @@ mind-body-health/
 | `conversation-logs/reddit-dialogue-awakening.md` | Reddit 觉知对话记录 | ⬅️ 从远程拉取到本地 |
 | `conversation-logs/reddit-dialogue-door-reversal.md` | Reddit 反转对话记录 | ⬅️ 从远程拉取到本地 |
 | ~~`classics/道德经第五章-版本对照.md`~~ | ✅ **2026-07-30 已处理**。两个文件曾内容完全相同（重复）。现分工：`classics/taoism/道德经第五章-版本对照.md` 承载全部考订内容（三本对照＋九处异文＋修订记录，并已修正原先把甲本「聲人／百省」误录为「圣人／百姓」的实质错误），`classics/taoism/daodejing-ch5.md` 收窄为经文页。**两个文件名均保留**——前者被两系列 70 余篇引作体例样板，后者被 agents／粤语诵读索引等 9 处引用，**改名会断链，故不改名。** | 无需处理 |
-| `tools/prompts/crisis-resources.md` | 危机资源副本 | 保留（与根目录 `crisis-resources.md` 同步维护） |
+| ~~`tools/prompts/crisis-resources.md`~~ | ✅ **2026-07-31 核实：本地与远程均无此文件**，本条为过时记录 | 已销账 |
 | 部分 `.gitkeep` 文件 | 空白文件夹占位 | 保留 |
 
 ### 🟢 本地缺少的 .gitkeep 文件（需补）
