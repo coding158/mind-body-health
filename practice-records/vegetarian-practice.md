@@ -109,3 +109,6 @@ Ten years. In short: no meat, no alcohol, no eggs, no "five pungents" (garlic, s
 > 记录者：基于个人十年素食实践
 > 相关：[`practice-records/辟谷-服气法亲身实证.md`]（身体实践的另一面）
 >      [`classics/buddhism/vegetarian-classical-basis.md`]（经典依据）
+
+<!-- OBSERVED: 2026-06-02 -->
+<!-- ↑ 新增一条观察条目时，请把上面的日期改成当天。据 git 历史回填（本文件为重复副本，见其 DEBT 标记）。此字段决定 HEALTH.md 的「静默天数」——git 提交时间不作数，因为改错别字也会把它清零。 -->

@@ -219,8 +219,25 @@ def scan_links(root: Path):
     }
 
 
+OBSERVED_RE = re.compile(r"<!--\s*OBSERVED:\s*(\d{4}-\d{2}-\d{2}|none)\s*-->", re.I)
+
+
 def scan_observation(root: Path):
-    """长期观察：每份实践记录多久没更新了 —— 这是唯一不可补录的资产。"""
+    """长期观察：每份实践记录多久没有**新观察**了 —— 这是唯一不可补录的资产。
+
+    取值优先级（ADR-0002 触发条款，2026-08-01 修）：
+      1. 文件内最后一个 <!-- OBSERVED: YYYY-MM-DD --> ——由本人在新增条目时更新
+      2. `none` —— 明示"尚无任何观察条目"
+      3. 缺该字段时才回落到 git log（并在看板标注"git兜底"）
+
+    为什么不能只用 git log：
+      git 记的是"最后一次**触碰**该文件的提交"，
+      而加债务标记、改错别字这类**治理性编辑同样会把静默天数清零**。
+      2026-08-01 实测：为标债务加了一行 HTML 注释，
+      素食 59 天🟡 / 茶 58 天🟡 当场变成 0 天，警告被抹掉。
+      OBSERVED 字段把「有没有真的观察」与「有没有人碰过文件」分开；
+      且它的失效方向是**报警**（忘了更新 → 天数继续涨），而不是**装好**。
+    """
     out = []
     d = root / PRACTICE_DIR
     if not d.exists():
@@ -228,11 +245,23 @@ def scan_observation(root: Path):
     for p in sorted(d.glob("*.md")):
         if p.name.upper().startswith("TEMPLATE"):
             continue
+        marks = OBSERVED_RE.findall(read(p))
+        if marks:
+            val = marks[-1].lower()
+            if val == "none":
+                out.append({"file": rel(p, root), "last_update": "尚无条目",
+                            "days_idle": None, "source": "OBSERVED"})
+                continue
+            out.append({"file": rel(p, root), "last_update": val,
+                        "days_idle": days_since(val + "T00:00:00+00:00"),
+                        "source": "OBSERVED"})
+            continue
         iso = git_last_commit(root, p)
         out.append({
             "file": rel(p, root),
             "last_update": (iso or "")[:10],
             "days_idle": days_since(iso),
+            "source": "git兜底",
         })
     return out
 
@@ -376,14 +405,19 @@ def render(cur, prev) -> str:
     if not obs:
         A("**尚无实践记录。**\n")
     else:
-        A("| 记录 | 最近更新 | 静默 |")
-        A("|---|---|---:|")
+        A("| 记录 | 最近观察 | 静默 | 取自 |")
+        A("|---|---|---:|---|")
         for o in sorted(obs, key=lambda x: -(x["days_idle"] or 0)):
             idle = o["days_idle"]
             flag = "　🔴" if idle is not None and idle > 90 else (
                 "　🟡" if idle is not None and idle > 30 else "")
+            src = o.get("source", "git兜底")
             A(f"| `{o['file']}` | {o['last_update'] or '—'} | "
-              f"{idle if idle is not None else '—'} 天{flag} |")
+              f"{idle if idle is not None else '—'} 天{flag} | {src} |")
+        A("")
+        A("> **取自 `OBSERVED`** ＝ 记录内 `<!-- OBSERVED: 日期 -->` 字段，由本人新增条目时更新；"
+          "**`git兜底`** ＝ 该文件没有此字段，退回用「最后一次触碰该文件的提交」——"
+          "**后者会被治理性编辑（改错别字、加标记）清零，不可当作真观察。**")
         A("")
 
     # ④ Governance
