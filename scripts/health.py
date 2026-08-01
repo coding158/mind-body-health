@@ -288,12 +288,20 @@ def load_prev(hist: Path):
     return last
 
 
-def arrow(now, prev, lower_is_better=True):
+def arrow(now, prev, lower_is_better=True, neutral=False):
+    """neutral=True：只报方向，不作好坏判断。
+
+    债务列必须用 neutral —— 看板头部写着「发现并标注债务是成果，不是失分」，
+    若同一张表把债务上升标成"退步"，表头与箭头互相打脸，
+    读者会据此学到"少标点债务比较好看"，那正好毁掉这张表的意义。
+    """
     if prev is None or now is None:
         return "—"
     if now == prev:
         return "＝"
     up = now > prev
+    if neutral:
+        return "▲  新发现" if up else "▼  已偿"
     good = (not up) if lower_is_better else up
     return ("▼" if up is False else "▲") + ("  好转" if good else "  退步")
 
@@ -320,7 +328,7 @@ def render(cur, prev) -> str:
     # ① Knowledge Debt
     A("## ① 知识债务 · Knowledge Debt\n")
     d, pd_ = cur["debt"], p.get("debt", {})
-    A(f"**总计 {d['total']} 条**　{arrow(d['total'], pd_.get('total'))}\n")
+    A(f"**总计 {d['total']} 条**　{arrow(d['total'], pd_.get('total'), neutral=True)}\n")
     A("| 类型 | 含义 | 数量 | 对比上次 |")
     A("|---|---|---:|---|")
     names = {"citation": "文献待补", "gap": "材料缺口", "conflict": "未裁断冲突",
@@ -329,7 +337,7 @@ def render(cur, prev) -> str:
         if n == 0 and t == "unknown":
             continue
         A(f"| `{t}` | {names.get(t, t)} | {n} | "
-          f"{arrow(n, (pd_.get('by_type') or {}).get(t))} |")
+          f"{arrow(n, (pd_.get('by_type') or {}).get(t), neutral=True)} |")
     A("")
     if d["items"]:
         A("<details><summary>展开全部债务条目</summary>\n")
