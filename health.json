@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T01:58:09+00:00",
+  "generated_at": "2026-08-01T02:08:36+00:00",
   "debt": {
     "total": 4,
     "by_type": {
@@ -12,21 +12,21 @@
     },
     "items": [
       {
-        "file": "faq/why-restless-when-still.md",
-        "line": 86,
-        "type": "gap",
-        "ref": "3.1节③ E4静坐",
-        "opened": "2026-07-31",
-        "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
-        "age_days": 1
-      },
-      {
         "file": "practice-records/tea-food-properties-practice.md",
         "line": 3,
         "type": "stale",
         "ref": "全文",
         "opened": "2026-07-31",
         "note": "与 茶与食物属性-实践记录.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针",
+        "age_days": 1
+      },
+      {
+        "file": "practice-records/品古树茶-逐次记录.md",
+        "line": 121,
+        "type": "gap",
+        "ref": "六、记录正文",
+        "opened": "2026-07-31",
+        "note": "逐次记录正文尚无条目；须由本人填写，禁止代写",
         "age_days": 1
       },
       {
@@ -39,12 +39,12 @@
         "age_days": 1
       },
       {
-        "file": "practice-records/品古树茶-逐次记录.md",
-        "line": 121,
+        "file": "faq/why-restless-when-still.md",
+        "line": 86,
         "type": "gap",
-        "ref": "六、记录正文",
+        "ref": "3.1节③ E4静坐",
         "opened": "2026-07-31",
-        "note": "逐次记录正文尚无条目；须由本人填写，禁止代写",
+        "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
         "age_days": 1
       }
     ]
@@ -54,22 +54,6 @@
     "sections_with_coord": 6,
     "coverage": 0.1333,
     "missing": [
-      {
-        "file": "faq/README.md",
-        "heading": "⚠️ 先说清楚"
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "heading": "一、你可能是这样的"
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "heading": "四、可以做的三件事"
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "heading": "🔴 如果出现伤害自己的念头"
-      },
       {
         "file": "navigation/anxiety.md",
         "heading": "一、你可能是这样的"
@@ -105,6 +89,34 @@
       {
         "file": "navigation/anxiety.md",
         "heading": "🔴 如果有伤害自己的念头"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "一、先说结论：本仓没有讲睡眠的章节"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "如果你的问题是「躺下之后脑子停不下来」"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "如果你喝茶"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "三、现代常见的解释路径"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "四、可以做的三件事"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "五、⚠️ 什么时候该去看医生"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "六、这一页将来会不会有内容"
       },
       {
         "file": "navigation/fatigue.md",
@@ -183,32 +195,20 @@
         "heading": "覆盖范围的老实话"
       },
       {
-        "file": "navigation/sleep.md",
-        "heading": "一、先说结论：本仓没有讲睡眠的章节"
+        "file": "faq/why-restless-when-still.md",
+        "heading": "一、你可能是这样的"
       },
       {
-        "file": "navigation/sleep.md",
-        "heading": "如果你的问题是「躺下之后脑子停不下来」"
-      },
-      {
-        "file": "navigation/sleep.md",
-        "heading": "如果你喝茶"
-      },
-      {
-        "file": "navigation/sleep.md",
-        "heading": "三、现代常见的解释路径"
-      },
-      {
-        "file": "navigation/sleep.md",
+        "file": "faq/why-restless-when-still.md",
         "heading": "四、可以做的三件事"
       },
       {
-        "file": "navigation/sleep.md",
-        "heading": "五、⚠️ 什么时候该去看医生"
+        "file": "faq/why-restless-when-still.md",
+        "heading": "🔴 如果出现伤害自己的念头"
       },
       {
-        "file": "navigation/sleep.md",
-        "heading": "六、这一页将来会不会有内容"
+        "file": "faq/README.md",
+        "heading": "⚠️ 先说清楚"
       }
     ]
   },
@@ -222,17 +222,17 @@
   "observation": [
     {
       "file": "practice-records/tea-food-properties-practice.md",
-      "last_update": "2026-06-03",
-      "days_idle": 58
+      "last_update": "2026-08-01",
+      "days_idle": 0
     },
     {
       "file": "practice-records/vegetarian-practice.md",
-      "last_update": "2026-06-02",
-      "days_idle": 59
+      "last_update": "2026-08-01",
+      "days_idle": 0
     },
     {
       "file": "practice-records/品古树茶-逐次记录.md",
-      "last_update": "2026-07-31",
+      "last_update": "2026-08-01",
       "days_idle": 0
     },
     {
