@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T02:11:08+00:00",
+  "generated_at": "2026-08-01T02:12:10+00:00",
   "debt": {
     "total": 5,
     "by_type": {
@@ -12,30 +12,21 @@
     },
     "items": [
       {
-        "file": "docs/ROADMAP-能力与指标.md",
-        "line": 72,
-        "type": "model",
-        "ref": "指标4 观察静默天数",
-        "opened": "2026-08-01",
-        "note": "判据用\"最后一次触碰该文件的 commit\"，治理性编辑（加债务标记、改错别字）也会把静默天数清零。首跑当天实测：素食59天/茶58天🟡，因加 DEBT 标记的提交而全部变成0天，🟡警告被抹掉。拟改为读取记录内 <!--OBSERVED:YYYY-MM-DD",
-        "age_days": 0
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "line": 86,
-        "type": "gap",
-        "ref": "3.1节③ E4静坐",
-        "opened": "2026-07-31",
-        "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
-        "age_days": 1
-      },
-      {
         "file": "practice-records/tea-food-properties-practice.md",
         "line": 3,
         "type": "stale",
         "ref": "全文",
         "opened": "2026-07-31",
         "note": "与 茶与食物属性-实践记录.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针",
+        "age_days": 1
+      },
+      {
+        "file": "practice-records/品古树茶-逐次记录.md",
+        "line": 121,
+        "type": "gap",
+        "ref": "六、记录正文",
+        "opened": "2026-07-31",
+        "note": "逐次记录正文尚无条目；须由本人填写，禁止代写",
         "age_days": 1
       },
       {
@@ -48,13 +39,22 @@
         "age_days": 1
       },
       {
-        "file": "practice-records/品古树茶-逐次记录.md",
-        "line": 121,
+        "file": "faq/why-restless-when-still.md",
+        "line": 86,
         "type": "gap",
-        "ref": "六、记录正文",
+        "ref": "3.1节③ E4静坐",
         "opened": "2026-07-31",
-        "note": "逐次记录正文尚无条目；须由本人填写，禁止代写",
+        "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
         "age_days": 1
+      },
+      {
+        "file": "docs/ROADMAP-能力与指标.md",
+        "line": 72,
+        "type": "model",
+        "ref": "指标4 观察静默天数",
+        "opened": "2026-08-01",
+        "note": "判据用\"最后一次触碰该文件的 commit\"，治理性编辑（加债务标记、改错别字）也会把静默天数清零。首跑当天实测：素食59天/茶58天🟡，因加 DEBT 标记的提交而全部变成0天，🟡警告被抹掉。拟改为读取记录内 <!--OBSERVED:YYYY-MM-DD",
+        "age_days": 0
       }
     ]
   },
@@ -63,22 +63,6 @@
     "sections_with_coord": 6,
     "coverage": 0.1333,
     "missing": [
-      {
-        "file": "faq/README.md",
-        "heading": "⚠️ 先说清楚"
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "heading": "一、你可能是这样的"
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "heading": "四、可以做的三件事"
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "heading": "🔴 如果出现伤害自己的念头"
-      },
       {
         "file": "navigation/anxiety.md",
         "heading": "一、你可能是这样的"
@@ -114,6 +98,34 @@
       {
         "file": "navigation/anxiety.md",
         "heading": "🔴 如果有伤害自己的念头"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "一、先说结论：本仓没有讲睡眠的章节"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "如果你的问题是「躺下之后脑子停不下来」"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "如果你喝茶"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "三、现代常见的解释路径"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "四、可以做的三件事"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "五、⚠️ 什么时候该去看医生"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "六、这一页将来会不会有内容"
       },
       {
         "file": "navigation/fatigue.md",
@@ -192,32 +204,20 @@
         "heading": "覆盖范围的老实话"
       },
       {
-        "file": "navigation/sleep.md",
-        "heading": "一、先说结论：本仓没有讲睡眠的章节"
+        "file": "faq/why-restless-when-still.md",
+        "heading": "一、你可能是这样的"
       },
       {
-        "file": "navigation/sleep.md",
-        "heading": "如果你的问题是「躺下之后脑子停不下来」"
-      },
-      {
-        "file": "navigation/sleep.md",
-        "heading": "如果你喝茶"
-      },
-      {
-        "file": "navigation/sleep.md",
-        "heading": "三、现代常见的解释路径"
-      },
-      {
-        "file": "navigation/sleep.md",
+        "file": "faq/why-restless-when-still.md",
         "heading": "四、可以做的三件事"
       },
       {
-        "file": "navigation/sleep.md",
-        "heading": "五、⚠️ 什么时候该去看医生"
+        "file": "faq/why-restless-when-still.md",
+        "heading": "🔴 如果出现伤害自己的念头"
       },
       {
-        "file": "navigation/sleep.md",
-        "heading": "六、这一页将来会不会有内容"
+        "file": "faq/README.md",
+        "heading": "⚠️ 先说清楚"
       }
     ]
   },

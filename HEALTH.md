@@ -1,7 +1,7 @@
 <!-- 本文件由 scripts/health.py 生成，请勿手工编辑。手工维护的健康表一定会腐烂，而腐烂的诚实比不诚实更糟。 -->
 # 仓库健康度 · Repository Health
 
-> 生成时间：2026-08-01T02:11:08+00:00　｜　上一次快照见 `health-history.jsonl`
+> 生成时间：2026-08-01T02:12:10+00:00　｜　上一次快照见 `health-history.jsonl`
 
 > **发现并标注债务是成果，不是失分。** 真正该警惕的是「新增了内容，却没有新增任何债务」——那通常意味着没有认真标。
 
@@ -11,24 +11,24 @@
 
 ## ① 知识债务 · Knowledge Debt
 
-**总计 5 条**　▲  退步
+**总计 5 条**　＝
 
 | 类型 | 含义 | 数量 | 对比上次 |
 |---|---|---:|---|
 | `citation` | 文献待补 | 0 | ＝ |
 | `gap` | 材料缺口 | 2 | ＝ |
 | `conflict` | 未裁断冲突 | 0 | ＝ |
-| `model` | 模型缺格 | 1 | ▲  退步 |
+| `model` | 模型缺格 | 1 | ＝ |
 | `stale` | 超期未复核 | 2 | ＝ |
 
 <details><summary>展开全部债务条目</summary>
 
 | 位置 | 类型 | 开立 | 已挂 | 说明 |
 |---|---|---|---:|---|
-| `faq/why-restless-when-still.md`:86 | gap | 2026-07-31 | 1天 | 静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据） |
 | `practice-records/tea-food-properties-practice.md`:3 | stale | 2026-07-31 | 1天 | 与 茶与食物属性-实践记录.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 |
-| `practice-records/vegetarian-practice.md`:3 | stale | 2026-07-31 | 1天 | 与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 |
 | `practice-records/品古树茶-逐次记录.md`:121 | gap | 2026-07-31 | 1天 | 逐次记录正文尚无条目；须由本人填写，禁止代写 |
+| `practice-records/vegetarian-practice.md`:3 | stale | 2026-07-31 | 1天 | 与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 |
+| `faq/why-restless-when-still.md`:86 | gap | 2026-07-31 | 1天 | 静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据） |
 | `docs/ROADMAP-能力与指标.md`:72 | model | 2026-08-01 | 0天 | 判据用"最后一次触碰该文件的 commit"，治理性编辑（加债务标记、改错别字）也会把静默天数清零。首跑当天实测：素食59天/茶58天🟡，因加 DEBT 标记的提交而全部变成0天，🟡警告被抹掉。拟改为读取记录内 <!--OBSERVED:YYYY-MM-DD |
 
 </details>
@@ -41,10 +41,6 @@
 | 「为什么是这一条」覆盖率（82 条内链） | 35.4% | ＝ |
 | 坏链 | 0 | ＝ |
 
-- ⚠️ 缺坐标：`faq/README.md` → ⚠️ 先说清楚
-- ⚠️ 缺坐标：`faq/why-restless-when-still.md` → 一、你可能是这样的
-- ⚠️ 缺坐标：`faq/why-restless-when-still.md` → 四、可以做的三件事
-- ⚠️ 缺坐标：`faq/why-restless-when-still.md` → 🔴 如果出现伤害自己的念头
 - ⚠️ 缺坐标：`navigation/anxiety.md` → 一、你可能是这样的
 - ⚠️ 缺坐标：`navigation/anxiety.md` → 🟢 最直接的一篇，先读它
 - ⚠️ 缺坐标：`navigation/anxiety.md` → 佛家一侧：三篇，路径各不相同
@@ -54,13 +50,17 @@
 - ⚠️ 缺坐标：`navigation/anxiety.md` → 五、一句要单独说的话
 - ⚠️ 缺坐标：`navigation/anxiety.md` → 六、⚠️ 什么时候该去看医生（或找心理专业人员）
 - ⚠️ 缺坐标：`navigation/anxiety.md` → 🔴 如果有伤害自己的念头
+- ⚠️ 缺坐标：`navigation/sleep.md` → 一、先说结论：本仓没有讲睡眠的章节
+- ⚠️ 缺坐标：`navigation/sleep.md` → 如果你的问题是「躺下之后脑子停不下来」
+- ⚠️ 缺坐标：`navigation/sleep.md` → 如果你喝茶
+- ⚠️ 缺坐标：`navigation/sleep.md` → 三、现代常见的解释路径
+- ⚠️ 缺坐标：`navigation/sleep.md` → 四、可以做的三件事
+- ⚠️ 缺坐标：`navigation/sleep.md` → 五、⚠️ 什么时候该去看医生
+- ⚠️ 缺坐标：`navigation/sleep.md` → 六、这一页将来会不会有内容
 - ⚠️ 缺坐标：`navigation/fatigue.md` → 一、你可能是这样的
 - ⚠️ 缺坐标：`navigation/fatigue.md` → 二、先说本页的老实话
 - ⚠️ 缺坐标：`navigation/fatigue.md` → 框架一：静不是停顿，而是一种起作用的状态
 - ⚠️ 缺坐标：`navigation/fatigue.md` → 框架二：在还没累垮之前处理，比累垮之后补救容易
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 框架三：把「休息」放回节律里去看
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 四、现代常见的解释路径（与上面并列，不混为一谈）
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 五、可以做的三件事
 
 ## ③ 观察健康 · Observation Health
 
