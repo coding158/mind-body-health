@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-01T02:26:38+00:00",
+  "generated_at": "2026-08-01T02:36:15+00:00",
   "debt": {
-    "total": 5,
+    "total": 4,
     "by_type": {
       "citation": 0,
       "gap": 2,
       "conflict": 0,
-      "model": 1,
+      "model": 0,
       "stale": 2,
       "unknown": 0
     },
@@ -46,15 +46,6 @@
         "opened": "2026-07-31",
         "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
         "age_days": 1
-      },
-      {
-        "file": "docs/ROADMAP-能力与指标.md",
-        "line": 72,
-        "type": "model",
-        "ref": "指标4 观察静默天数",
-        "opened": "2026-08-01",
-        "note": "判据用\"最后一次触碰该文件的 commit\"，治理性编辑（加债务标记、改错别字）也会把静默天数清零。首跑当天实测：素食59天/茶58天🟡，因加 DEBT 标记的提交而全部变成0天，🟡警告被抹掉。拟改为读取记录内的 OBSERVED:YYYY-MM-DD 字段（由本人在新增条目时更新），git log 仅作兜底",
-        "age_days": 0
       }
     ]
   },
@@ -231,33 +222,39 @@
   "observation": [
     {
       "file": "practice-records/tea-food-properties-practice.md",
-      "last_update": "2026-08-01",
-      "days_idle": 0
+      "last_update": "2026-06-03",
+      "days_idle": 59,
+      "source": "OBSERVED"
     },
     {
       "file": "practice-records/vegetarian-practice.md",
-      "last_update": "2026-08-01",
-      "days_idle": 0
+      "last_update": "2026-06-02",
+      "days_idle": 60,
+      "source": "OBSERVED"
     },
     {
       "file": "practice-records/品古树茶-逐次记录.md",
-      "last_update": "2026-08-01",
-      "days_idle": 0
+      "last_update": "尚无条目",
+      "days_idle": null,
+      "source": "OBSERVED"
     },
     {
       "file": "practice-records/素食-十年亲身实证.md",
       "last_update": "2026-06-02",
-      "days_idle": 59
+      "days_idle": 60,
+      "source": "OBSERVED"
     },
     {
       "file": "practice-records/茶与食物属性-实践记录.md",
       "last_update": "2026-06-03",
-      "days_idle": 58
+      "days_idle": 59,
+      "source": "OBSERVED"
     },
     {
       "file": "practice-records/辟谷-服气法亲身实证.md",
       "last_update": "2026-06-02",
-      "days_idle": 59
+      "days_idle": 60,
+      "source": "OBSERVED"
     }
   ],
   "governance": {

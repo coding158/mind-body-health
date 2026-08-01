@@ -1,7 +1,7 @@
 <!-- 本文件由 scripts/health.py 生成，请勿手工编辑。手工维护的健康表一定会腐烂，而腐烂的诚实比不诚实更糟。 -->
 # 仓库健康度 · Repository Health
 
-> 生成时间：2026-08-01T02:26:38+00:00　｜　上一次快照见 `health-history.jsonl`
+> 生成时间：2026-08-01T02:36:15+00:00　｜　上一次快照见 `health-history.jsonl`
 
 > **发现并标注债务是成果，不是失分。** 真正该警惕的是「新增了内容，却没有新增任何债务」——那通常意味着没有认真标。
 
@@ -11,14 +11,14 @@
 
 ## ① 知识债务 · Knowledge Debt
 
-**总计 5 条**　＝
+**总计 4 条**　▼  已偿
 
 | 类型 | 含义 | 数量 | 对比上次 |
 |---|---|---:|---|
 | `citation` | 文献待补 | 0 | ＝ |
 | `gap` | 材料缺口 | 2 | ＝ |
 | `conflict` | 未裁断冲突 | 0 | ＝ |
-| `model` | 模型缺格 | 1 | ＝ |
+| `model` | 模型缺格 | 0 | ▼  已偿 |
 | `stale` | 超期未复核 | 2 | ＝ |
 
 <details><summary>展开全部债务条目</summary>
@@ -29,7 +29,6 @@
 | `practice-records/品古树茶-逐次记录.md`:121 | gap | 2026-07-31 | 1天 | 逐次记录正文尚无条目；须由本人填写，禁止代写 |
 | `practice-records/vegetarian-practice.md`:3 | stale | 2026-07-31 | 1天 | 与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 |
 | `faq/why-restless-when-still.md`:86 | gap | 2026-07-31 | 1天 | 静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据） |
-| `docs/ROADMAP-能力与指标.md`:72 | model | 2026-08-01 | 0天 | 判据用"最后一次触碰该文件的 commit"，治理性编辑（加债务标记、改错别字）也会把静默天数清零。首跑当天实测：素食59天/茶58天🟡，因加 DEBT 标记的提交而全部变成0天，🟡警告被抹掉。拟改为读取记录内的 OBSERVED:YYYY-MM-DD 字段（由本人在新增条目时更新），git log 仅作兜底 |
 
 </details>
 
@@ -66,19 +65,21 @@
 
 > 这是仓里唯一**不可补录**的资产。晚一天开始，永远少一天。
 
-| 记录 | 最近更新 | 静默 |
-|---|---|---:|
-| `practice-records/素食-十年亲身实证.md` | 2026-06-02 | 59 天　🟡 |
-| `practice-records/辟谷-服气法亲身实证.md` | 2026-06-02 | 59 天　🟡 |
-| `practice-records/茶与食物属性-实践记录.md` | 2026-06-03 | 58 天　🟡 |
-| `practice-records/tea-food-properties-practice.md` | 2026-08-01 | 0 天 |
-| `practice-records/vegetarian-practice.md` | 2026-08-01 | 0 天 |
-| `practice-records/品古树茶-逐次记录.md` | 2026-08-01 | 0 天 |
+| 记录 | 最近观察 | 静默 | 取自 |
+|---|---|---:|---|
+| `practice-records/vegetarian-practice.md` | 2026-06-02 | 60 天　🟡 | OBSERVED |
+| `practice-records/素食-十年亲身实证.md` | 2026-06-02 | 60 天　🟡 | OBSERVED |
+| `practice-records/辟谷-服气法亲身实证.md` | 2026-06-02 | 60 天　🟡 | OBSERVED |
+| `practice-records/tea-food-properties-practice.md` | 2026-06-03 | 59 天　🟡 | OBSERVED |
+| `practice-records/茶与食物属性-实践记录.md` | 2026-06-03 | 59 天　🟡 | OBSERVED |
+| `practice-records/品古树茶-逐次记录.md` | 尚无条目 | — 天 | OBSERVED |
+
+> **取自 `OBSERVED`** ＝ 记录内 `<!-- OBSERVED: 日期 -->` 字段，由本人新增条目时更新；**`git兜底`** ＝ 该文件没有此字段，退回用「最后一次触碰该文件的提交」——**后者会被治理性编辑（改错别字、加标记）清零，不可当作真观察。**
 
 ## ④ 治理健康 · Governance Health
 
 - ADR 数量：**3**
-- 未偿模型债（`type=model`）：**1** —— 每一条都应当在被发现后收敛为一条 ADR
+- 未偿模型债（`type=model`）：**0** —— 每一条都应当在被发现后收敛为一条 ADR
 
 ---
 > 生成方式：`python scripts/health.py --write`　｜　CI 每周自动运行并提交，PR 上以 `--strict` 作门禁。
