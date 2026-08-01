@@ -1,5 +1,6 @@
 # 茶与食物属性 · 一份亲身实践记录
 # Tea and the Properties of Food · A Firsthand Record
+<!-- DEBT: type=stale | ref=全文 | opened=2026-07-31 | note=与 茶与食物属性-实践记录.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 -->
 
 > ⚠️ **开篇必读 · READ FIRST**
 >

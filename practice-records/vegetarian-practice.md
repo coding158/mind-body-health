@@ -1,5 +1,6 @@
 # 十年素食 · 一份亲身实证记录
 # Ten Years Vegetarian · A Firsthand Record
+<!-- DEBT: type=stale | ref=全文 | opened=2026-07-31 | note=与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 -->
 
 > ⚠️ **开篇必读 · READ FIRST**
 >

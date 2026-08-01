@@ -3,6 +3,9 @@
 # A Body-Mind Health System: Where TCM Meets Buddhist Practice
 # — with Digital Humanities & AI-Assisted Knowledge Engineering
 
+> 📊 **[本仓公开自己的欠债 → HEALTH.md](HEALTH.md)** ｜ 坐标覆盖率、坏链、未偿知识债务、观察静默天数——**由脚本生成，不手工维护**。
+> **发现并标注债务是成果，不是失分。** 觉得某条说法的来源标错了？[直接报缺陷](../../issues/new?template=defect.yml)——这是对本仓最大的贡献。
+
 > 基于《人体使用手册》与《了凡四训》，结合楞严经转触实践；
 > 并以同一套「诚实标注、可追溯」的原则，做道家经典的数字化整理与知识治理。
 > 开源项目 · 智能体陪伴探索 · 见修行同步反馈 · 欢迎参与共建

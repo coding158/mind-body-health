@@ -1,0 +1,58 @@
+name: 提一个现代问题
+description: 你被什么困扰？我们会用「标明来源」的方式回答，而不是给建议。
+title: "[问题] "
+labels: ["faq-candidate"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ⚠️ 请先读这一段
+
+        **本仓不提供医疗建议，也不是心理治疗的替代。**
+        如果你正在经历持续的、影响生活的症状，请先看医生。
+        如果出现伤害自己的念头，请立即查看仓内的 `crisis-resources.md`。
+
+        本仓能给你的只有一样东西：**一个标明了来源和边界的解释框架**——
+        哪些来自古籍、哪些来自现代研究、哪些只是个案、哪些我们不知道。
+        决定权在你自己。
+
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: 确认
+      options:
+        - label: 我理解这里不会给出诊断或治疗方案
+          required: true
+        - label: 这不是紧急情况
+          required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: 你的问题
+      description: 越具体越好。「为什么越静越烦躁」比「怎么静心」有用得多。
+      placeholder: 为什么……
+    validations: { required: true }
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: 你观察到了什么（可选）
+      description: 具体现象比感受更有价值——什么时候发生、持续多久、什么情况下会变化。
+
+  - type: dropdown
+    id: expect
+    attributes:
+      label: 你更想知道哪一侧？
+      options:
+        - 古籍/传统怎么说
+        - 现代研究怎么说
+        - 有没有人有长期实践经验
+        - 都想看，并且想知道它们分不分歧
+    validations: { required: true }
+
+  - type: textarea
+    id: searched
+    attributes:
+      label: 你在仓里找过哪些页面？（可选）
+      description: 如果你找过但没找到，这本身就是导航层的缺陷，请直说。

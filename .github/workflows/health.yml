@@ -1,0 +1,51 @@
+name: Repository Health
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 1 * * 1"      # 每周一 09:00 CST
+  workflow_dispatch:
+
+jobs:
+  # PR 上只做门禁，不写文件：拦「形式退化」，不拦「新增债务」
+  gate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0      # health.py 需要 git log 取实践记录更新时间
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 健康门禁
+        run: python scripts/health.py --strict
+
+  # main / 定时：生成快照并提交，让 HEALTH.md 永远是最新的
+  snapshot:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: 生成健康快照
+        run: python scripts/health.py --write
+      - name: 提交变更
+        run: |
+          git config user.name  "health-bot"
+          git config user.email "health-bot@users.noreply.github.com"
+          git add HEALTH.md health.json health-history.jsonl
+          if git diff --cached --quiet; then
+            echo "无变化，跳过提交"
+          else
+            git commit -m "chore(health): 自动更新健康快照 [skip ci]"
+            git push
+          fi

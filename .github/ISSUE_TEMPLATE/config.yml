@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 我需要紧急帮助
+    url: https://github.com/coding158/mind-body-health/blob/main/crisis-resources.md
+    about: 本仓人工维护的求助资源名单。请不要在 issue 里等待回复。

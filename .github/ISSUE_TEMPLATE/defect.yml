@@ -1,0 +1,43 @@
+name: 报告一处证据缺陷
+description: 某条说法的来源标错了、被偷偷升级了、或根本查无此据。
+title: "[缺陷] "
+labels: ["defect", "governance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **指出错误是对本仓最大的贡献。** 每一条被确认的缺陷都会收敛为一条 ADR，
+        写进规则，以后不再犯。请不要担心措辞。
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 缺陷类型
+      options:
+        - 证据漂移（把 E4 个案说成有效、把古籍说成被现代证实等）
+        - 坐标标错（该 M3 标成了 M1，或该 E3b 标成了 E3a）
+        - 查无此据（引用的文献/数字与原文不符）
+        - 少数派读法被当成通行读法使用（E2b 越权）
+        - 缺口没有直说（应写「没有」却含糊带过）
+        - 链接的「为什么是这一条」不成立
+    validations: { required: true }
+
+  - type: input
+    id: where
+    attributes:
+      label: 位置
+      placeholder: "faq/why-restless-when-still.md 第 3.2 节第二条"
+    validations: { required: true }
+
+  - type: textarea
+    id: claim
+    attributes:
+      label: 原文怎么写的
+    validations: { required: true }
+
+  - type: textarea
+    id: why
+    attributes:
+      label: 为什么它站不住
+      description: 如果你有能核对的出处（DOI、页码、原书版本），请附上。
+    validations: { required: true }
