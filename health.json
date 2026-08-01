@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T03:20:25+00:00",
+  "generated_at": "2026-08-01T03:32:25+00:00",
   "debt": {
     "total": 4,
     "by_type": {
@@ -22,12 +22,12 @@
       },
       {
         "file": "practice-records/品古树茶-逐次记录.md",
-        "line": 121,
+        "line": 184,
         "type": "gap",
-        "ref": "六、记录正文",
-        "opened": "2026-07-31",
-        "note": "逐次记录正文尚无条目；须由本人填写，禁止代写",
-        "age_days": 1
+        "ref": "第1次记录 体感与冲泡各栏",
+        "opened": "2026-08-01",
+        "note": "2026-07-31 那次品饮的客观项与汤色照片已录入，体感、冲泡参数、当日混杂变量三部分空缺，须由本人补填。禁止代写",
+        "age_days": 0
       },
       {
         "file": "practice-records/vegetarian-practice.md",
@@ -234,8 +234,8 @@
     },
     {
       "file": "practice-records/品古树茶-逐次记录.md",
-      "last_update": "尚无条目",
-      "days_idle": null,
+      "last_update": "2026-07-31",
+      "days_idle": 1,
       "source": "OBSERVED"
     },
     {
