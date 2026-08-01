@@ -229,6 +229,7 @@ mind-body-health/
 | **危机求助资源** | [`crisis-resources.md`](crisis-resources.md) | `agents/crisis-resources.md`（**逐字同步副本，不是指针**——安全关键，见该页说明） |
 | **道德经第五章** | [`classics/taoism/道德经第五章-版本对照.md`](classics/taoism/道德经第五章-版本对照.md)（承载考订） | `classics/taoism/daodejing-ch5.md`（收窄为经文页，2026-07-30） |
 | **八字心法** | [`docs/PHILOSOPHY-八字心法.md`](docs/PHILOSOPHY-八字心法.md) | 根目录 `PHILOSOPHY-八字心法.md` |
+| **干昌新著述书目** | [`classics/taoism/德经修炼学理解-系列总目.md`](classics/taoism/德经修炼学理解-系列总目.md) **第八节** | `NOTICE.md` · `agents/Dao-Master.md` · `classics/taoism/道德经第五章-版本对照.md`（均指向正源，不各自维护） |
 
 ### 为什么正源是 `CLAUDE.md` 而不是 `agents/` 下那份
 

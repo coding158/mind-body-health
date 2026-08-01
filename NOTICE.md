@@ -38,8 +38,12 @@
 These are modern, copyrighted works. This repository does **not** reproduce their text — it acknowledges and points to them. Please read the originals through authorized channels.
 
 - **《人体使用手册》**（吴清忠）—— 中医养生的入门启发
-- **干昌新 关于老子养生法 / 服气法 的著述** —— 辟谷服气的理论背景
-  （注明：属有争议的一家之言，本仓库作参考，不作定论）
+- **干昌新《老子人体生命科学》**，中央编译出版社，2009 年 10 月，ISBN 978-7-5117-0007-0，271 页
+  —— 辟谷服气的直接理论背景，具体为**第七章「空气营养学与气功辟谷」**（十二节）。
+  该章的摘录转述与边界说明见 [`practice-records/辟谷-服气法亲身实证.md`](practice-records/辟谷-服气法亲身实证.md) 第六节。
+  （注明：属有争议的一家之言，本仓库作参考，**不作定论**；
+  ⛔ 该书关于免疫、抗癌、治病的主张，**本仓不采纳、不背书**。）
+  干昌新其余著作与辅教资料的完整书目，见 [`classics/taoism/德经修炼学理解-系列总目.md`](classics/taoism/德经修炼学理解-系列总目.md) 第八节——**书目以那一处为准，此处不重复维护。**
 - **南怀瑾 讲准提法 / 佛学的相关著作** —— 修行理解的参考
 - 以及历代祖师大德的注解、讲记 —— 各属其著作权
 
