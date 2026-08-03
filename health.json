@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T06:41:26+00:00",
+  "generated_at": "2026-08-03T03:34:52+00:00",
   "debt": {
     "total": 4,
     "by_type": {
@@ -18,7 +18,7 @@
         "ref": "全文",
         "opened": "2026-07-31",
         "note": "与 茶与食物属性-实践记录.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针",
-        "age_days": 1
+        "age_days": 3
       },
       {
         "file": "practice-records/品古树茶-逐次记录.md",
@@ -27,7 +27,7 @@
         "ref": "第1次记录 体感与冲泡各栏",
         "opened": "2026-08-01",
         "note": "2026-07-31 那次品饮的客观项与汤色照片已录入，体感、冲泡参数、当日混杂变量三部分空缺，须由本人补填。禁止代写",
-        "age_days": 0
+        "age_days": 2
       },
       {
         "file": "practice-records/vegetarian-practice.md",
@@ -36,7 +36,7 @@
         "ref": "全文",
         "opened": "2026-07-31",
         "note": "与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针",
-        "age_days": 1
+        "age_days": 3
       },
       {
         "file": "faq/why-restless-when-still.md",
@@ -45,7 +45,7 @@
         "ref": "3.1节③ E4静坐",
         "opened": "2026-07-31",
         "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
-        "age_days": 1
+        "age_days": 3
       }
     ]
   },
@@ -213,7 +213,7 @@
     ]
   },
   "links": {
-    "total": 850,
+    "total": 891,
     "broken_count": 0,
     "broken": [],
     "reason_coverage": 0.3537,
@@ -223,37 +223,37 @@
     {
       "file": "practice-records/tea-food-properties-practice.md",
       "last_update": "2026-06-03",
-      "days_idle": 59,
+      "days_idle": 61,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/vegetarian-practice.md",
       "last_update": "2026-06-02",
-      "days_idle": 60,
+      "days_idle": 62,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/品古树茶-逐次记录.md",
       "last_update": "2026-07-31",
-      "days_idle": 1,
+      "days_idle": 3,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/素食-十年亲身实证.md",
       "last_update": "2026-06-02",
-      "days_idle": 60,
+      "days_idle": 62,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/茶与食物属性-实践记录.md",
       "last_update": "2026-06-03",
-      "days_idle": 59,
+      "days_idle": 61,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/辟谷-服气法亲身实证.md",
       "last_update": "2026-06-02",
-      "days_idle": 60,
+      "days_idle": 62,
       "source": "OBSERVED"
     }
   ],
