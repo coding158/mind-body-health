@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T03:36:39+00:00",
+  "generated_at": "2026-08-03T04:22:24+00:00",
   "debt": {
     "total": 4,
     "by_type": {
@@ -213,7 +213,7 @@
     ]
   },
   "links": {
-    "total": 891,
+    "total": 967,
     "broken_count": 0,
     "broken": [],
     "reason_coverage": 0.3537,
