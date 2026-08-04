@@ -24,7 +24,7 @@
 | 身心健康体系（转触·实践路径·学习次序） | ✅ 持续维护 |
 | 智能体与提示词（`agents/`） | 🚧 持续演进 |
 | 道家经典整理 ·《德经》公开导读 | ✅ **六十八篇已全部完成** ＋ 系列总目 |
-| 道家经典整理 ·《道经》公开导读 | 🚧 持续更新（48 章计划，**已出 19 篇** ＋ 系列总目） |
+| 道家经典整理 ·《道经》公开导读 | 🚧 持续更新（48 章计划，**已出 21 篇** ＋ 系列总目） |
 | 知识工程方法与治理规范（`docs/`） | ✅ 已建立并稳定 |
 | 社区实践记录（`practice-records/`） | 🌱 欢迎投稿 |
 
@@ -128,8 +128,8 @@ Enter from any layer, and you arrive at the same center.
 - 第一批（干氏写有章末点评，依据最厚）：[第一章 上德不德](classics/taoism/德经第一章-上德不德-修炼学理解.md) · [第二章 居厚去华](classics/taoism/德经第二章-居厚去华-修炼学理解.md) · [第三章 得一五用](classics/taoism/德经第三章-得一五用-修炼学理解.md) · [第四章 是故不欲](classics/taoism/德经第四章-是故不欲-修炼学理解.md) · [第五章 三士三位](classics/taoism/德经第五章-三士三位-修炼学理解.md) · [第六章 五如之事](classics/taoism/德经第六章-五如之事-修炼学理解.md) · [第七章 反馈道动](classics/taoism/德经第七章-反馈道动-修炼学理解.md) · [第八章 道生冲和](classics/taoism/德经第八章-道生冲和-修炼学理解.md)
 - 第九～六十八篇：点评之后的部分，依据转为逐字解密与勘误注疏，**逐篇标明依据强弱**——见总目。
 
-**《道经》系列**（进行中，48 章计划，已出 19 篇）——📑 **[道经系列总目](classics/taoism/道经修炼学理解-系列总目.md)**：
-[第一章 道可道](classics/taoism/道经第一章-道可道-修炼学理解.md) · [第二章 天下皆知美](classics/taoism/道经第二章-天下皆知美-修炼学理解.md) · [第三章 有无相生](classics/taoism/道经第三章-有无相生-修炼学理解.md) · [第四章 居无为之事](classics/taoism/道经第四章-居无为之事-修炼学理解.md) · [第五章 不上贤](classics/taoism/道经第五章-不上贤-修炼学理解.md) · [第六章 虚心实腹](classics/taoism/道经第六章-虚心实腹-修炼学理解.md) · [第七章 始万物之宗](classics/taoism/道经第七章-始万物之宗-修炼学理解.md) · [第八章 天地不仁](classics/taoism/道经第八章-天地不仁-修炼学理解.md) · [第九章 天地之间](classics/taoism/道经第九章-天地之间-修炼学理解.md) · [第十章 浴神不死](classics/taoism/道经第十章-浴神不死-修炼学理解.md) · [第十一章 天长地久](classics/taoism/道经第十一章-天长地久-修炼学理解.md) · [第十二章 上善治水](classics/taoism/道经第十二章-上善治水-修炼学理解.md) · [第十三章 居善地](classics/taoism/道经第十三章-居善地-修炼学理解.md) · [第十四章 金玉盈室](classics/taoism/道经第十四章-金玉盈室-修炼学理解.md) · [第十五章 抱一](classics/taoism/道经第十五章-抱一-修炼学理解.md) · [第十六章 卅辐共一毂](classics/taoism/道经第十六章-卅辐共一毂-修炼学理解.md) · [第十七章 为腹不为目](classics/taoism/道经第十七章-为腹不为目-修炼学理解.md) · [第十八章 龙辱若惊](classics/taoism/道经第十八章-龙辱若惊-修炼学理解.md) · [第十九章 视之而弗见](classics/taoism/道经第十九章-视之而弗见-修炼学理解.md)
+**《道经》系列**（进行中，48 章计划，已出 21 篇）——📑 **[道经系列总目](classics/taoism/道经修炼学理解-系列总目.md)**：
+[第一章 道可道](classics/taoism/道经第一章-道可道-修炼学理解.md) · [第二章 天下皆知美](classics/taoism/道经第二章-天下皆知美-修炼学理解.md) · [第三章 有无相生](classics/taoism/道经第三章-有无相生-修炼学理解.md) · [第四章 居无为之事](classics/taoism/道经第四章-居无为之事-修炼学理解.md) · [第五章 不上贤](classics/taoism/道经第五章-不上贤-修炼学理解.md) · [第六章 虚心实腹](classics/taoism/道经第六章-虚心实腹-修炼学理解.md) · [第七章 始万物之宗](classics/taoism/道经第七章-始万物之宗-修炼学理解.md) · [第八章 天地不仁](classics/taoism/道经第八章-天地不仁-修炼学理解.md) · [第九章 天地之间](classics/taoism/道经第九章-天地之间-修炼学理解.md) · [第十章 浴神不死](classics/taoism/道经第十章-浴神不死-修炼学理解.md) · [第十一章 天长地久](classics/taoism/道经第十一章-天长地久-修炼学理解.md) · [第十二章 上善治水](classics/taoism/道经第十二章-上善治水-修炼学理解.md) · [第十三章 居善地](classics/taoism/道经第十三章-居善地-修炼学理解.md) · [第十四章 金玉盈室](classics/taoism/道经第十四章-金玉盈室-修炼学理解.md) · [第十五章 抱一](classics/taoism/道经第十五章-抱一-修炼学理解.md) · [第十六章 卅辐共一毂](classics/taoism/道经第十六章-卅辐共一毂-修炼学理解.md) · [第十七章 为腹不为目](classics/taoism/道经第十七章-为腹不为目-修炼学理解.md) · [第十八章 龙辱若惊](classics/taoism/道经第十八章-龙辱若惊-修炼学理解.md) · [第十九章 视之而弗见](classics/taoism/道经第十九章-视之而弗见-修炼学理解.md) · [第二十章 寻寻呵](classics/taoism/道经第二十章-寻寻呵-修炼学理解.md) · [第二十一章 古之善为道者](classics/taoism/道经第二十一章-古之善为道者-修炼学理解.md)
 
 **其他道家篇目**：[百字碑](classics/taoism/baiziming-hundred-character-tablet.md) · [道德经第五章·版本对照](classics/taoism/道德经第五章-版本对照.md)（通行本第五章＝本仓[道经第八章](classics/taoism/道经第八章-天地不仁-修炼学理解.md)、[第九章](classics/taoism/道经第九章-天地之间-修炼学理解.md)）
 
@@ -148,8 +148,8 @@ Enter from any layer, and you arrive at the same center.
 | 项 | 状态 |
 |---|---|
 | 《德经》整理 | ✅ 已完成（六十八篇） |
-| 《道经》整理 | 🚧 进行中（48 章计划，已出 19 篇） |
-| 公开导读文章 | 已发布 **87 篇**（德经 68 ＋ 道经 19）＋ 两份系列总目 |
+| 《道经》整理 | 🚧 进行中（48 章计划，已出 21 篇） |
+| 公开导读文章 | 已发布 **89 篇**（德经 68 ＋ 道经 21）＋ 两份系列总目 |
 | 图版终审（自创字字形） | 待原书影印图版 |
 | 自动化校验流程 | 稳定运行 |
 
