@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-04T15:31:21+00:00",
+  "generated_at": "2026-08-04T23:18:37+00:00",
   "debt": {
-    "total": 4,
+    "total": 5,
     "by_type": {
       "citation": 0,
-      "gap": 2,
+      "gap": 3,
       "conflict": 0,
       "model": 0,
       "stale": 2,
@@ -46,6 +46,15 @@
         "opened": "2026-07-31",
         "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
         "age_days": 4
+      },
+      {
+        "file": "research/special-function-claims-in-practice-books.md",
+        "line": 129,
+        "type": "gap",
+        "ref": "research/special-function-claims-in-practice-books.md 第五节",
+        "opened": "2026-08-05",
+        "note": "张宝胜案/1979耳朵认字/罕萨长寿三案的一手文献（原始报道、测试报告、调查记录）本仓尚未取得，现仅有公开报道层面的轮廓；在核到之前不把细节当作已确认事实",
+        "age_days": -1
       }
     ]
   },
@@ -213,7 +222,7 @@
     ]
   },
   "links": {
-    "total": 1479,
+    "total": 1499,
     "broken_count": 0,
     "broken": [],
     "reason_coverage": 0.3636,
