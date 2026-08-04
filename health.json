@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T00:02:56+00:00",
+  "generated_at": "2026-08-04T01:40:39+00:00",
   "debt": {
     "total": 4,
     "by_type": {
@@ -40,7 +40,7 @@
       },
       {
         "file": "faq/why-restless-when-still.md",
-        "line": 86,
+        "line": 98,
         "type": "gap",
         "ref": "3.1节③ E4静坐",
         "opened": "2026-07-31",
@@ -50,9 +50,9 @@
     ]
   },
   "provenance": {
-    "sections_total": 45,
-    "sections_with_coord": 6,
-    "coverage": 0.1333,
+    "sections_total": 47,
+    "sections_with_coord": 8,
+    "coverage": 0.1702,
     "missing": [
       {
         "file": "navigation/anxiety.md",
@@ -213,11 +213,11 @@
     ]
   },
   "links": {
-    "total": 1212,
+    "total": 1231,
     "broken_count": 0,
     "broken": [],
-    "reason_coverage": 0.3537,
-    "reason_pool": 82
+    "reason_coverage": 0.3636,
+    "reason_pool": 88
   },
   "observation": [
     {
