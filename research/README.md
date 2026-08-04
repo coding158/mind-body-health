@@ -36,6 +36,10 @@
 |---|---|---|
 | [放松诱发焦虑（RIA）](relaxation-induced-anxiety.md) | `faq/why-restless-when-still.md` §3.2 | **M3** |
 | [冥想相关不良反应](meditation-adverse-events.md) | `faq/why-restless-when-still.md` §3.2 | **M3**（含一条被广泛误读的数字） |
+| [修炼类著作里的「当代特异功能」举证 · 四本书跨书对照](special-function-claims-in-practice-books.md) | 道经[第十八章](../classics/taoism/道经第十八章-龙辱若惊-修炼学理解.md)⛔／[第十九章](../classics/taoism/道经第十九章-视之而弗见-修炼学理解.md)⛔ | **E2c＋E3b＋M4** |
+
+> ⚠ **第三条与前两条体例不同**：**它不是一项现代研究的笔记，而是一次跨书比对**（四本修炼类著作对「当代特异功能」的三种立场）。
+> **该页第二节已声明体例调整**，并把「书里写了什么（已核）」与「案例后来怎么样（未取得一手文献）」**分开标级，不互相升级**。
 
 ---
 
