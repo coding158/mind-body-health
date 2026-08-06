@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T10:16:06+00:00",
+  "generated_at": "2026-08-06T10:29:51+00:00",
   "debt": {
     "total": 6,
     "by_type": {
@@ -58,7 +58,7 @@
       },
       {
         "file": "research/inner-verification-and-tcm.md",
-        "line": 149,
+        "line": 163,
         "type": "gap",
         "ref": "research/inner-verification-and-tcm.md 第六节",
         "opened": "2026-08-06",
@@ -231,7 +231,7 @@
     ]
   },
   "links": {
-    "total": 1525,
+    "total": 1527,
     "broken_count": 0,
     "broken": [],
     "reason_coverage": 0.3636,
