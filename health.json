@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:11:21+00:00",
+  "generated_at": "2026-08-07T10:04:52+00:00",
   "debt": {
     "total": 7,
     "by_type": {
@@ -21,24 +21,6 @@
         "age_days": 0
       },
       {
-        "file": "faq/why-restless-when-still.md",
-        "line": 98,
-        "type": "gap",
-        "ref": "3.1节③ E4静坐",
-        "opened": "2026-07-31",
-        "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
-        "age_days": 7
-      },
-      {
-        "file": "practice-records/vegetarian-practice.md",
-        "line": 3,
-        "type": "stale",
-        "ref": "全文",
-        "opened": "2026-07-31",
-        "note": "与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针",
-        "age_days": 7
-      },
-      {
         "file": "practice-records/tea-food-properties-practice.md",
         "line": 3,
         "type": "stale",
@@ -57,13 +39,22 @@
         "age_days": 6
       },
       {
-        "file": "research/inner-verification-and-tcm.md",
-        "line": 169,
+        "file": "practice-records/vegetarian-practice.md",
+        "line": 3,
+        "type": "stale",
+        "ref": "全文",
+        "opened": "2026-07-31",
+        "note": "与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针",
+        "age_days": 7
+      },
+      {
+        "file": "faq/why-restless-when-still.md",
+        "line": 98,
         "type": "gap",
-        "ref": "research/inner-verification-and-tcm.md 第六节",
-        "opened": "2026-08-06",
-        "note": "经络学说起源的专门研究文献本仓尚未取得，且本仓无《灵枢》文本；第六节各候选解释仅列方向未核文献；2026-08-07 复核确认此债未因胎息经对照页而关闭",
-        "age_days": 1
+        "ref": "3.1节③ E4静坐",
+        "opened": "2026-07-31",
+        "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
+        "age_days": 7
       },
       {
         "file": "research/special-function-claims-in-practice-books.md",
@@ -73,58 +64,23 @@
         "opened": "2026-08-05",
         "note": "张宝胜案/1979耳朵认字/罕萨长寿三案的一手文献（原始报道、测试报告、调查记录）本仓尚未取得，现仅有公开报道层面的轮廓；在核到之前不把细节当作已确认事实",
         "age_days": 2
+      },
+      {
+        "file": "research/inner-verification-and-tcm.md",
+        "line": 169,
+        "type": "gap",
+        "ref": "research/inner-verification-and-tcm.md 第六节",
+        "opened": "2026-08-06",
+        "note": "经络学说起源的专门研究文献本仓尚未取得，且本仓无《灵枢》文本；第六节各候选解释仅列方向未核文献；2026-08-07 复核确认此债未因胎息经对照页而关闭",
+        "age_days": 1
       }
     ]
   },
   "provenance": {
-    "sections_total": 47,
+    "sections_total": 66,
     "sections_with_coord": 8,
-    "coverage": 0.1702,
+    "coverage": 0.1212,
     "missing": [
-      {
-        "file": "navigation/README.md",
-        "heading": "四个入口"
-      },
-      {
-        "file": "navigation/README.md",
-        "heading": "每页的固定结构"
-      },
-      {
-        "file": "navigation/README.md",
-        "heading": "章号怎么对上的（给核对的人）"
-      },
-      {
-        "file": "navigation/README.md",
-        "heading": "覆盖范围的老实话"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "一、你可能是这样的"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "🔴 如果你是冲着「辟谷 / 断食」来的，请先读这一篇"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "饮食方式：两篇长期实证"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "古籍侧：四篇，各管一段"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "三、现代常见的解释路径（与上面并列，不混为一谈）"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "四、可以做的三件事"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "五、⚠️ 什么时候该去看医生"
-      },
       {
         "file": "navigation/anxiety.md",
         "heading": "一、你可能是这样的"
@@ -139,7 +95,11 @@
       },
       {
         "file": "navigation/anxiety.md",
-        "heading": "道家一侧：两条，都是框架而非依据"
+        "heading": "《黄帝内经》：两句公版原文"
+      },
+      {
+        "file": "navigation/anxiety.md",
+        "heading": "道家一侧：三条，都是框架而非依据"
       },
       {
         "file": "navigation/anxiety.md",
@@ -148,6 +108,10 @@
       {
         "file": "navigation/anxiety.md",
         "heading": "四、可以做的三件事"
+      },
+      {
+        "file": "navigation/anxiety.md",
+        "heading": "📚 关于那 412 本书库的一个提醒"
       },
       {
         "file": "navigation/anxiety.md",
@@ -162,40 +126,16 @@
         "heading": "🔴 如果有伤害自己的念头"
       },
       {
-        "file": "navigation/fatigue.md",
-        "heading": "一、你可能是这样的"
-      },
-      {
-        "file": "navigation/fatigue.md",
-        "heading": "二、先说本页的老实话"
-      },
-      {
-        "file": "navigation/fatigue.md",
-        "heading": "框架一：静不是停顿，而是一种起作用的状态"
-      },
-      {
-        "file": "navigation/fatigue.md",
-        "heading": "框架二：在还没累垮之前处理，比累垮之后补救容易"
-      },
-      {
-        "file": "navigation/fatigue.md",
-        "heading": "框架三：把「休息」放回节律里去看"
-      },
-      {
-        "file": "navigation/fatigue.md",
-        "heading": "四、现代常见的解释路径（与上面并列，不混为一谈）"
-      },
-      {
-        "file": "navigation/fatigue.md",
-        "heading": "五、可以做的三件事"
-      },
-      {
-        "file": "navigation/fatigue.md",
-        "heading": "六、⚠️ 什么时候该去看医生"
+        "file": "navigation/sleep.md",
+        "heading": "一、先说结论：《老子》一侧没有讲睡眠的章节"
       },
       {
         "file": "navigation/sleep.md",
-        "heading": "一、先说结论：本仓没有讲睡眠的章节"
+        "heading": "🔁 换一个来源核对，结论一样"
+      },
+      {
+        "file": "navigation/sleep.md",
+        "heading": "一之二、有一条是真的对题的：《黄帝内经》"
       },
       {
         "file": "navigation/sleep.md",
@@ -222,6 +162,142 @@
         "heading": "六、这一页将来会不会有内容"
       },
       {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "〇、先说清楚这份对应是什么、不是什么"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "原因一：域的分布，恰好与「身体困扰」相反"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "原因三：实质内容全部在版权期内"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "🍽 总是觉得饿 → [hunger.md](hunger.md)"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "😮‍💨 长期疲劳 → [fatigue.md](fatigue.md)"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "😰 情绪焦虑 → [anxiety.md](anxiety.md)"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "😴 睡不好 → [sleep.md](sleep.md)"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "《黄帝内经·上古天真论》——公版，且直接落在四页中的三页"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "《胎息经》——与上一条有可核的字面呼应"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "道经新发布各篇中，另有三章直接贴题"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "四、这份对应产生的四条改动"
+      },
+      {
+        "file": "navigation/BOOKS-MAP.md",
+        "heading": "五、给维护者的两条观察（不改动，只记录）"
+      },
+      {
+        "file": "navigation/fatigue.md",
+        "heading": "一、你可能是这样的"
+      },
+      {
+        "file": "navigation/fatigue.md",
+        "heading": "二、最直接的一条：《黄帝内经》，公版"
+      },
+      {
+        "file": "navigation/fatigue.md",
+        "heading": "三、《老子》一侧的老实话"
+      },
+      {
+        "file": "navigation/fatigue.md",
+        "heading": "框架一：静不是停顿，而是一种起作用的状态"
+      },
+      {
+        "file": "navigation/fatigue.md",
+        "heading": "框架二：在还没累垮之前处理，比累垮之后补救容易"
+      },
+      {
+        "file": "navigation/fatigue.md",
+        "heading": "框架三：把「休息」放回节律里去看"
+      },
+      {
+        "file": "navigation/fatigue.md",
+        "heading": "五、现代常见的解释路径（与上面并列，不混为一谈）"
+      },
+      {
+        "file": "navigation/fatigue.md",
+        "heading": "六、可以做的三件事"
+      },
+      {
+        "file": "navigation/fatigue.md",
+        "heading": "七、⚠️ 什么时候该去看医生"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "一、你可能是这样的"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "🔴 如果你是冲着「辟谷 / 断食」来的，请先读这一篇"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "《黄帝内经》：一句公版原文，管住整页的骨架"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "饮食方式：两篇长期实证"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "古籍侧：六篇，各管一段"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "📚 想找整本书的"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "三、现代常见的解释路径（与上面并列，不混为一谈）"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "四、可以做的三件事"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "五、⚠️ 什么时候该去看医生"
+      },
+      {
+        "file": "navigation/README.md",
+        "heading": "四个入口"
+      },
+      {
+        "file": "navigation/README.md",
+        "heading": "每页的固定结构"
+      },
+      {
+        "file": "navigation/README.md",
+        "heading": "章号怎么对上的（给核对的人）"
+      },
+      {
+        "file": "navigation/README.md",
+        "heading": "覆盖范围的老实话"
+      },
+      {
         "file": "faq/why-restless-when-still.md",
         "heading": "一、你可能是这样的"
       },
@@ -240,11 +316,11 @@
     ]
   },
   "links": {
-    "total": 1539,
+    "total": 1598,
     "broken_count": 0,
     "broken": [],
-    "reason_coverage": 0.3636,
-    "reason_pool": 88
+    "reason_coverage": 0.3061,
+    "reason_pool": 147
   },
   "observation": [
     {
