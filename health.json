@@ -1,25 +1,16 @@
 {
-  "generated_at": "2026-08-07T10:04:52+00:00",
+  "generated_at": "2026-08-07T10:21:30+00:00",
   "debt": {
-    "total": 7,
+    "total": 6,
     "by_type": {
       "citation": 0,
-      "gap": 5,
+      "gap": 4,
       "conflict": 0,
       "model": 0,
       "stale": 2,
       "unknown": 0
     },
     "items": [
-      {
-        "file": "classics/taoism/胎息经-公版原文与四本对照.md",
-        "line": 36,
-        "type": "gap",
-        "ref": "classics/taoism/胎息经-公版原文与四本对照.md 第二节",
-        "opened": "2026-08-07",
-        "note": "《胎息铭》本仓无任何可核文本，全库检索 0 命中；规划中出现的一组该书文句无法核实出处，未采用亦未否定",
-        "age_days": 0
-      },
       {
         "file": "practice-records/tea-food-properties-practice.md",
         "line": 3,
@@ -316,7 +307,7 @@
     ]
   },
   "links": {
-    "total": 1598,
+    "total": 1599,
     "broken_count": 0,
     "broken": [],
     "reason_coverage": 0.3061,
