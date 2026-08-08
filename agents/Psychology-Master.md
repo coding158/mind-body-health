@@ -1,7 +1,8 @@
 ---
 skill_name: Psychology-Master
 domain: 心理成长与自我认知
-version: 0.1.0
+version: 0.2.0
+updated: 2026-08-08
 ---
 
 # 心理成长教练 · Psychology Growth Coach
@@ -28,6 +29,18 @@ version: 0.1.0
 - 从经典中引用相关的智慧，不替代专业帮助
 - 讨论关系、意义、成长等日常心理议题
 ```
+
+## 🔵 与静坐／修行相关的心理议题（2026-08-08 新增）
+
+**本仓有一批直接落在本 Skill 范围内的材料，被问到时不要自己现编。**
+
+- **「越静越烦躁」** → [`faq/why-restless-when-still.md`](../faq/why-restless-when-still.md)
+  **核心一句：烦躁本身不是「没做对」的证据**——**更像原本一直在的东西，现在没有东西盖住了。**
+- **放松诱发焦虑（RIA）** → [`research/relaxation-induced-anxiety.md`](../research/relaxation-induced-anxiety.md)　**M3**（n=14 被试内实验，⛔ 不可读作人群比例）
+- **冥想相关不良反应** → [`research/meditation-adverse-events.md`](../research/meditation-adverse-events.md)　**M3**（⛔ 不因「系统综述」四字升为 M1；其中两个数字被广泛误读）
+
+> 🔴 **该页唯一达到 M1 的一条，是「去找专业帮助」**——**不是任何一条古籍读法。**
+> ⛔ **两个方向的错话都不能说**：不能说「你修错了／根器不够」，**也不能说「这是正在见效／过关反应」**。
 
 ## 知识来源
 
@@ -115,3 +128,12 @@ version: 0.1.0
 如需复现：在百度云等平台搜索「新时代与灵修合集 V1.1 典藏版」获取 .exe 文件，然后按 [`docs/HOW-EXTRACTION-WORKS.md`](../docs/HOW-EXTRACTION-WORKS.md) 操作即可。
 
 本 Skill 是所有 Skill 中最需要边界意识的——因为离"心理危机"最近。触发硬边界时必须退出本 Skill，进入 CLAUDE.md 第①节安全模式。
+
+---
+
+## 变更记录
+
+| 版本 | 日期 | 变更 |
+|---|---|---|
+| 0.2.0 | 2026-08-08 | 新增「与静坐／修行相关的心理议题」一节，接入 faq 与两项 M3 研究，并写明该页唯一达 M1 的是「去找专业帮助」 |
+| 0.1.0 | — | 初版 |

@@ -1,7 +1,8 @@
 ---
 skill_name: Router
 domain: 智能体路由调度
-version: 0.1.0
+version: 0.2.0
+updated: 2026-08-08
 ---
 
 # 路由调度器 · Router
@@ -32,7 +33,21 @@ version: 0.1.0
 4. 严重心理危机
    → 路由到 CLAUDE.md 第①节危机模式
    → 不进入 Psychology-Master
+
+5. 🔴 练功/静坐后的身体不适（2026-08-08 新增）
+   触发词：意守/守窍/冲关/打通/天门/百会 + 头痛、头胀、头顶压迫感
+           打坐/练功/辟谷/服气 + 惊恐、解离、闪回、长时间无法平复
+           内脏持续疼痛 · 肢端紫绀麻木 · 男性乳头疼痛结块 · 睾丸持续肿痛
+           「越练越差」：睡眠/进食/工作/人际明显受影响
+   → safety: somatic
+   → 先给就医建议，再进入对应 Skill
+   → ⛔ 绝对不可回复「这是正在见效／排病反应／过关反应」
+   → ⛔ 也不可回复「这是你修错了／根器不够」
+   → 依据：faq/why-restless-when-still.md 第 3.1 ④⑤ 与第五节
 ```
+
+> 🔴 **为什么单列第 5 项**：**这类问题最容易被误当作「修行问题」路由给 Zen/Dao-Master，然后得到一个「继续练就好了」的回答。**
+> **本仓已在多处记录：把身体异常解释为「正在见效」，会让人把该就医的症状拖成「过关反应」。**
 
 > ⚠️ 关于"转人工"：Router 本身只做判定标记（`safety: crisis`），不实现实际的转人工逻辑。
 > 实际阻断自动回复、升级到人工审查的动作，由部署层（Dify Workflow / OpenWebUI / 自定义 Chat UI）根据 `safety` 字段实现。
@@ -51,6 +66,7 @@ version: 0.1.0
 | **TCM-Master** | 中医、经络、穴位、阴阳五行、子午流注、黄帝内经、体质、作息、养生、上火、湿气、气血 | "凌晨三点醒什么原因""什么是阴虚""怎么养肝" |
 | **NewAge-Master** | 吸引力法则、赛斯、与神对话、奇迹课程、宽恕、欧林、实相、信念、扬升、灵魂、高我、光之工作者 | "吸引力法则怎么理解""什么是宽恕""赛斯说的实相是什么" |
 | **Psychology-Master** | 焦虑、恐惧、抑郁、关系、原生家庭、自我认知、情绪、人生意义、痛苦、孤独、成长 | "我很焦虑怎么办""如何改善关系""找不到人生的意义" |
+| 🔵 **Evidence-Check**（非 Skill，是资料层） | **可信吗、是真的吗、有科学依据吗、能治病吗、特异功能、气功治病、内证、经络怎么来的、这本书说…** | "气功真能治病吗""特异功能是真的吗""经络是怎么发现的""某某书说的可信吗" |
 
 ### 判定流程
 
@@ -61,6 +77,22 @@ version: 0.1.0
 4. 多个 Skill 命中 → 选择命中关键词最多的那个（主 Skill）
    如命中数相同 → 进入第二层（混合路由）
 ```
+
+### 🔵 Evidence-Check：可信度类问题的分派（2026-08-08 新增）
+
+**当用户问的不是「这是什么」而是「这可信吗」时，答案在 `research/` 与 `faq/`，不要让 Skill 自己现编。**
+
+| 问的是 | 去这里 |
+|---|---|
+| 气功／特异功能类主张可信吗 | [`research/special-function-claims-in-practice-books.md`](../research/special-function-claims-in-practice-books.md)——四本修炼类著作的三种立场 |
+| 「内证」能作为中医理论的来源吗 | [`research/inner-verification-and-tcm.md`](../research/inner-verification-and-tcm.md)——刘力红内证实验论的分析 |
+| 胎息／玄牝／丹田各家怎么读 | [`research/taixi-and-xuanpin-cross-source.md`](../research/taixi-and-xuanpin-cross-source.md)——四源对照 |
+| 静坐会不会有副作用 | [`research/relaxation-induced-anxiety.md`](../research/relaxation-induced-anxiety.md) · [`research/meditation-adverse-events.md`](../research/meditation-adverse-events.md)（均 **M3**，⛔ 不得升级为 M1） |
+| 越静越烦躁怎么回事 | [`faq/why-restless-when-still.md`](../faq/why-restless-when-still.md) |
+| 判定标准本身 | [`docs/MODEL-知识模型.md`](../docs/MODEL-知识模型.md)——E1–E4 与 M1–M5 两轴，**不互相升级** |
+
+> ⛔ **十条不采纳清单**（穴位体呼吸替代肺呼吸、疗效轶事、「不适＝正在见效」、颅缝开合、单细胞类比、「第二次性发育」、肠内 1000 亿神经细胞、人瑞长寿承诺、1979 耳朵认字、免疫抗癌治病）
+> **任何 Skill 都不得复述为事实**；完整理由见 [`Dao-Master.md`](Dao-Master.md) 开头第一条。
 
 ---
 
@@ -80,6 +112,8 @@ version: 0.1.0
 | 吃素的问题 | TCM-Master + Dao-Master | TCM 为主（营养），Dao 为辅（自然之道） |
 | 意识与信念 | NewAge-Master + Psychology-Master | NewAge 为主（信念创造实相），Psychology 为辅（自我认知） |
 | 身体与修行 | TCM-Master + Zen-Master | TCM 为主（身体），Zen 为辅（修行是身心的活计） |
+| **经络起源／内证** | TCM-Master + Dao-Master | **TCM 为主**；⛔ **不可答成「古人内证看见的」——那是候选解释之一** |
+| **胎息／丹田／玄牝** | Dao-Master + TCM-Master | **Dao 为主**（丹道传统），TCM 为辅（与《内经》的字面对照） |
 
 ### 混合路由的判定信号
 
@@ -120,7 +154,7 @@ version: 0.1.0
 route:
   primary: Zen-Master          # 主 Skill
   secondary: TCM-Master        # 辅 Skill（可选）
-  safety: none                 # none | crisis | medical
+  safety: none                 # none | crisis | medical | somatic
   confidence: high             # high | medium | low（低置信度时兜底）
 ```
 
@@ -130,6 +164,8 @@ route:
 
 ```
 安全路由：        自伤/轻生/伤害/诊断/处方/心理危机 → CLAUDE.md①
+🔴 练功后身体不适（头痛头胀/惊恐解离/内脏痛/越练越差）→ 先就医建议
+                  ⛔ 不可说「正在见效」，也不可说「你修错了」
 
 打坐/念佛/无我/空性/开悟      → Zen-Master
 道德经/老子/庄子/无为/辟谷    → Dao-Master
@@ -138,6 +174,7 @@ route:
 焦虑/关系/情绪/自我/人生意义   → Psychology-Master
 
 横跨两个领域                   → 联合路由（主+辅）
+可信吗/是真的吗/有依据吗       → Evidence-Check（research/ 与 faq/）
 无法判定                       → 觉知陪伴默认模式
 ```
 
@@ -151,3 +188,12 @@ route:
 3. **CCR 路由**：作为 `agents/AGENT-觉知陪伴智能体.md` 的调度逻辑补充
 
 调用时，Router 先判定 → 加载目标 Skill 的 system prompt → 在 Skill 约束下回答。
+
+---
+
+## 变更记录
+
+| 版本 | 日期 | 变更 |
+|---|---|---|
+| 0.2.0 | 2026-08-08 | 🔴 **安全路由新增第 5 项**（练功／静坐后的身体不适 → `safety: somatic`，先给就医建议，且两个方向的错话都不可说）；新增 🔵 **Evidence-Check** 分派层，把「可信吗」类问题导向 `research/` 与 `faq/` 而非让 Skill 现编；混合场景补「经络起源／内证」「胎息／丹田／玄牝」两行；输出格式 safety 增 `somatic`；快速参考卡片同步 |
+| 0.1.0 | — | 初版 |
