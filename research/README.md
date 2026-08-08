@@ -37,6 +37,7 @@
 | [放松诱发焦虑（RIA）](relaxation-induced-anxiety.md)                                | `faq/why-restless-when-still.md` §3.2                                                                                                                     | **M3**              |
 | [冥想相关不良反应](meditation-adverse-events.md)                                    | `faq/why-restless-when-still.md` §3.2                                                                                                                     | **M3**（含一条被广泛误读的数字） |
 | [修炼类著作里的「当代特异功能」举证 · 四本书跨书对照](special-function-claims-in-practice-books.md) | 道经[第十八章](../classics/taoism/道经第十八章-龙辱若惊-修炼学理解.md)⛔／[第十九章](../classics/taoism/道经第十九章-视之而弗见-修炼学理解.md)⛔                                                      | **E2c＋E3b＋M4**      |
+| [胎息与「玄牝」· 四源对照](taixi-and-xuanpin-cross-source.md) | 道经[第十章](../classics/taoism/道经第十章-浴神不死-修炼学理解.md)两条 🔴 标注的原始出处 | **E1/E2b/E4＋E3b** |
 | [「内证」与中医理论的来源](inner-verification-and-tcm.md)                               | 道经[第九](../classics/taoism/道经第九章-天地之间-修炼学理解.md)／[十三](../classics/taoism/道经第十三章-居善地-修炼学理解.md)／[十九章](../classics/taoism/道经第十九章-视之而弗见-修炼学理解.md)的「无形辩护」与「循环风险」 | **E2a/E2b＋E3b＋M5**  |
 
 > ⚠ **第三、四条与前两条体例不同**：**它们不是一项现代研究的笔记，而是源文献分析**（第三条：四本修炼类著作对「当代特异功能」的三种立场；第四条：刘力红《思考中医》的「内证实验」论与一份胎息自述）。
