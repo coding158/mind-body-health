@@ -1,7 +1,7 @@
 <!-- 本文件由 scripts/health.py 生成，请勿手工编辑。手工维护的健康表一定会腐烂，而腐烂的诚实比不诚实更糟。 -->
 # 仓库健康度 · Repository Health
 
-> 生成时间：2026-10-24T02:18:06+00:00　｜　上一次快照见 `health-history.jsonl`
+> 生成时间：2026-10-24T02:33:46+00:00　｜　上一次快照见 `health-history.jsonl`
 
 > **发现并标注债务是成果，不是失分。** 真正该警惕的是「新增了内容，却没有新增任何债务」——那通常意味着没有认真标。
 
@@ -41,7 +41,7 @@
 |---|---:|---|
 | 坐标覆盖率（8/66 小节） | 12.1% | ＝ |
 | 「为什么是这一条」覆盖率（147 条内链） | 30.6% | ＝ |
-| 坏链 | 0 | ＝ |
+| 坏链 | 4 | ▲  退步 |
 
 - ⚠️ 缺坐标：`faq/README.md` → ⚠️ 先说清楚
 - ⚠️ 缺坐标：`faq/why-restless-when-still.md` → 一、你可能是这样的
@@ -63,6 +63,10 @@
 - ⚠️ 缺坐标：`navigation/hunger.md` → 🔴 如果你是冲着「辟谷 / 断食」来的，请先读这一篇
 - ⚠️ 缺坐标：`navigation/hunger.md` → 《黄帝内经》：一句公版原文，管住整页的骨架
 - ⚠️ 缺坐标：`navigation/hunger.md` → 饮食方式：两篇长期实证
+- ❌ 坏链：`HEALTH.md` → `hunger.md`
+- ❌ 坏链：`HEALTH.md` → `fatigue.md`
+- ❌ 坏链：`HEALTH.md` → `anxiety.md`
+- ❌ 坏链：`HEALTH.md` → `sleep.md`
 
 ## ③ 观察健康 · Observation Health
 

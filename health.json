@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T02:18:06+00:00",
+  "generated_at": "2026-10-24T02:33:46+00:00",
   "debt": {
     "total": 7,
     "by_type": {
@@ -316,9 +316,26 @@
     ]
   },
   "links": {
-    "total": 1677,
-    "broken_count": 0,
-    "broken": [],
+    "total": 1681,
+    "broken_count": 4,
+    "broken": [
+      {
+        "file": "HEALTH.md",
+        "target": "hunger.md"
+      },
+      {
+        "file": "HEALTH.md",
+        "target": "fatigue.md"
+      },
+      {
+        "file": "HEALTH.md",
+        "target": "anxiety.md"
+      },
+      {
+        "file": "HEALTH.md",
+        "target": "sleep.md"
+      }
+    ],
     "reason_coverage": 0.3061,
     "reason_pool": 147
   },
