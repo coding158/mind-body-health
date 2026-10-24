@@ -37,12 +37,16 @@ jobs:
 
       - name: Fetch latest from both sides
         run: |
+          # 跨境到 Gitee 偶发 Connection reset / SSL timeout：失败等 30 秒重试，最多 3 次
+          retry() { for i in 1 2 3; do "$@" && return 0; echo "attempt $i failed: $*"; [ "$i" -lt 3 ] && sleep 30; done; return 1; }
           git fetch origin main
-          git fetch gitee main || echo "GITEE_FETCH_FAILED"
+          retry git fetch gitee main || echo "GITEE_FETCH_FAILED"
+        shell: bash
 
       - name: Write back Gitee commits to GitHub (GitHub = SSOT, conflict → GitHub wins)
         run: |
           set -euo pipefail
+          retry() { for i in 1 2 3; do "$@" && return 0; echo "attempt $i failed: $*"; [ "$i" -lt 3 ] && sleep 30; done; return 1; }
           # 计算两侧领先的提交数
           GITEE_AHEAD=$(git rev-list --count origin/main..gitee/main 2>/dev/null || echo 0)
           ORIGIN_AHEAD=$(git rev-list --count gitee/main..origin/main 2>/dev/null || echo 0)
@@ -61,7 +65,7 @@ jobs:
               # 保留 Gitee 独有提交到备份分支，避免数据丢失
               BACKUP_BRANCH="gitee-conflict-backup-$(date +%Y%m%d-%H%M%S)"
               git branch "${BACKUP_BRANCH}" gitee/main
-              git push gitee "${BACKUP_BRANCH}" || echo "BACKUP_PUSH_FAILED"
+              retry git push gitee "${BACKUP_BRANCH}" || echo "BACKUP_PUSH_FAILED"
               echo "CONFLICT_RESOLVED_GITHUB_WINS backup=${BACKUP_BRANCH}"
             fi
           else
@@ -74,24 +78,26 @@ jobs:
           GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
         run: |
           set -euo pipefail
+          retry() { for i in 1 2 3; do "$@" && return 0; echo "attempt $i failed: $*"; [ "$i" -lt 3 ] && sleep 30; done; return 1; }
           git checkout main 2>/dev/null || git checkout -B main origin/main
           # 若 Gitee 落后则 fast-forward；若已分叉（Gitee 独有提交已回流/备份）则 force-with-lease
           if git rev-parse --verify gitee/main >/dev/null 2>&1; then
             if git merge-base --is-ancestor gitee/main origin/main; then
-              git push gitee main:main
+              retry git push gitee main:main
             else
               echo "==> Gitee diverged, force-with-lease push (backup branch already kept)"
-              git push --force-with-lease gitee main:main
+              retry git push --force-with-lease gitee main:main
             fi
           else
-            git push gitee main:main
+            retry git push gitee main:main
           fi
         shell: bash
 
       - name: Verify parity
         run: |
+          retry() { for i in 1 2 3; do "$@" && return 0; echo "attempt $i failed: $*"; [ "$i" -lt 3 ] && sleep 30; done; return 1; }
           git fetch origin main
-          git fetch gitee main
+          retry git fetch gitee main
           A=$(git rev-parse origin/main)
           B=$(git rev-parse gitee/main)
           echo "github_main=${A}"
