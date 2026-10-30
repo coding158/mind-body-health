@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T05:32:45+00:00",
+  "generated_at": "2026-10-30T15:17:14+00:00",
   "debt": {
     "total": 7,
     "by_type": {
@@ -12,40 +12,13 @@
     },
     "items": [
       {
-        "file": "research/taixi-and-xuanpin-cross-source.md",
-        "line": 162,
+        "file": "practice-records/品古树茶-逐次记录.md",
+        "line": 184,
         "type": "gap",
-        "ref": "research/taixi-and-xuanpin-cross-source.md 第五六节",
-        "opened": "2026-08-08",
-        "note": "古文字学对「玄」「灵」等字的通说本仓无专门文献，只能指出所论非通说而不能定谳；另内证观察笔记PDF增订本未OCR，不能排除其另有玄字论述",
-        "age_days": 79
-      },
-      {
-        "file": "research/special-function-claims-in-practice-books.md",
-        "line": 129,
-        "type": "gap",
-        "ref": "research/special-function-claims-in-practice-books.md 第五节",
-        "opened": "2026-08-05",
-        "note": "张宝胜案/1979耳朵认字/罕萨长寿三案的一手文献（原始报道、测试报告、调查记录）本仓尚未取得，现仅有公开报道层面的轮廓；在核到之前不把细节当作已确认事实",
-        "age_days": 82
-      },
-      {
-        "file": "research/inner-verification-and-tcm.md",
-        "line": 169,
-        "type": "gap",
-        "ref": "research/inner-verification-and-tcm.md 第六节",
-        "opened": "2026-08-06",
-        "note": "经络学说起源的专门研究文献本仓尚未取得，且本仓无《灵枢》文本；第六节各候选解释仅列方向未核文献；2026-08-07 复核确认此债未因胎息经对照页而关闭",
-        "age_days": 81
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "line": 98,
-        "type": "gap",
-        "ref": "3.1节③ E4静坐",
-        "opened": "2026-07-31",
-        "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
-        "age_days": 87
+        "ref": "第1次记录 体感与冲泡各栏",
+        "opened": "2026-08-01",
+        "note": "2026-07-31 那次品饮的客观项与汤色照片已录入，体感、冲泡参数、当日混杂变量三部分空缺，须由本人补填。禁止代写",
+        "age_days": 90
       },
       {
         "file": "practice-records/tea-food-properties-practice.md",
@@ -54,7 +27,7 @@
         "ref": "全文",
         "opened": "2026-07-31",
         "note": "与 茶与食物属性-实践记录.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针",
-        "age_days": 87
+        "age_days": 91
       },
       {
         "file": "practice-records/vegetarian-practice.md",
@@ -63,16 +36,43 @@
         "ref": "全文",
         "opened": "2026-07-31",
         "note": "与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针",
-        "age_days": 87
+        "age_days": 91
       },
       {
-        "file": "practice-records/品古树茶-逐次记录.md",
-        "line": 184,
+        "file": "faq/why-restless-when-still.md",
+        "line": 98,
         "type": "gap",
-        "ref": "第1次记录 体感与冲泡各栏",
-        "opened": "2026-08-01",
-        "note": "2026-07-31 那次品饮的客观项与汤色照片已录入，体感、冲泡参数、当日混杂变量三部分空缺，须由本人补填。禁止代写",
+        "ref": "3.1节③ E4静坐",
+        "opened": "2026-07-31",
+        "note": "静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据）",
+        "age_days": 91
+      },
+      {
+        "file": "research/special-function-claims-in-practice-books.md",
+        "line": 129,
+        "type": "gap",
+        "ref": "research/special-function-claims-in-practice-books.md 第五节",
+        "opened": "2026-08-05",
+        "note": "张宝胜案/1979耳朵认字/罕萨长寿三案的一手文献（原始报道、测试报告、调查记录）本仓尚未取得，现仅有公开报道层面的轮廓；在核到之前不把细节当作已确认事实",
         "age_days": 86
+      },
+      {
+        "file": "research/taixi-and-xuanpin-cross-source.md",
+        "line": 162,
+        "type": "gap",
+        "ref": "research/taixi-and-xuanpin-cross-source.md 第五六节",
+        "opened": "2026-08-08",
+        "note": "古文字学对「玄」「灵」等字的通说本仓无专门文献，只能指出所论非通说而不能定谳；另内证观察笔记PDF增订本未OCR，不能排除其另有玄字论述",
+        "age_days": 83
+      },
+      {
+        "file": "research/inner-verification-and-tcm.md",
+        "line": 169,
+        "type": "gap",
+        "ref": "research/inner-verification-and-tcm.md 第六节",
+        "opened": "2026-08-06",
+        "note": "经络学说起源的专门研究文献本仓尚未取得，且本仓无《灵枢》文本；第六节各候选解释仅列方向未核文献；2026-08-07 复核确认此债未因胎息经对照页而关闭",
+        "age_days": 85
       }
     ]
   },
@@ -81,22 +81,6 @@
     "sections_with_coord": 8,
     "coverage": 0.1212,
     "missing": [
-      {
-        "file": "faq/README.md",
-        "heading": "⚠️ 先说清楚"
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "heading": "一、你可能是这样的"
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "heading": "四、可以做的三件事"
-      },
-      {
-        "file": "faq/why-restless-when-still.md",
-        "heading": "🔴 如果出现伤害自己的念头"
-      },
       {
         "file": "navigation/BOOKS-MAP.md",
         "heading": "〇、先说清楚这份对应是什么、不是什么"
@@ -144,58 +128,6 @@
       {
         "file": "navigation/BOOKS-MAP.md",
         "heading": "五、给维护者的两条观察（不改动，只记录）"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "一、你可能是这样的"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "🔴 如果你是冲着「辟谷 / 断食」来的，请先读这一篇"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "《黄帝内经》：一句公版原文，管住整页的骨架"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "饮食方式：两篇长期实证"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "古籍侧：六篇，各管一段"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "📚 想找整本书的"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "三、现代常见的解释路径（与上面并列，不混为一谈）"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "四、可以做的三件事"
-      },
-      {
-        "file": "navigation/hunger.md",
-        "heading": "五、⚠️ 什么时候该去看医生"
-      },
-      {
-        "file": "navigation/README.md",
-        "heading": "四个入口"
-      },
-      {
-        "file": "navigation/README.md",
-        "heading": "每页的固定结构"
-      },
-      {
-        "file": "navigation/README.md",
-        "heading": "章号怎么对上的（给核对的人）"
-      },
-      {
-        "file": "navigation/README.md",
-        "heading": "覆盖范围的老实话"
       },
       {
         "file": "navigation/fatigue.md",
@@ -270,6 +202,22 @@
         "heading": "六、这一页将来会不会有内容"
       },
       {
+        "file": "navigation/README.md",
+        "heading": "四个入口"
+      },
+      {
+        "file": "navigation/README.md",
+        "heading": "每页的固定结构"
+      },
+      {
+        "file": "navigation/README.md",
+        "heading": "章号怎么对上的（给核对的人）"
+      },
+      {
+        "file": "navigation/README.md",
+        "heading": "覆盖范围的老实话"
+      },
+      {
         "file": "navigation/anxiety.md",
         "heading": "一、你可能是这样的"
       },
@@ -312,6 +260,58 @@
       {
         "file": "navigation/anxiety.md",
         "heading": "🔴 如果有伤害自己的念头"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "一、你可能是这样的"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "🔴 如果你是冲着「辟谷 / 断食」来的，请先读这一篇"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "《黄帝内经》：一句公版原文，管住整页的骨架"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "饮食方式：两篇长期实证"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "古籍侧：六篇，各管一段"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "📚 想找整本书的"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "三、现代常见的解释路径（与上面并列，不混为一谈）"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "四、可以做的三件事"
+      },
+      {
+        "file": "navigation/hunger.md",
+        "heading": "五、⚠️ 什么时候该去看医生"
+      },
+      {
+        "file": "faq/README.md",
+        "heading": "⚠️ 先说清楚"
+      },
+      {
+        "file": "faq/why-restless-when-still.md",
+        "heading": "一、你可能是这样的"
+      },
+      {
+        "file": "faq/why-restless-when-still.md",
+        "heading": "四、可以做的三件事"
+      },
+      {
+        "file": "faq/why-restless-when-still.md",
+        "heading": "🔴 如果出现伤害自己的念头"
       }
     ]
   },
@@ -343,37 +343,37 @@
     {
       "file": "practice-records/tea-food-properties-practice.md",
       "last_update": "2026-06-03",
-      "days_idle": 145,
+      "days_idle": 149,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/vegetarian-practice.md",
       "last_update": "2026-06-02",
-      "days_idle": 146,
+      "days_idle": 150,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/品古树茶-逐次记录.md",
       "last_update": "2026-07-31",
-      "days_idle": 87,
+      "days_idle": 91,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/素食-十年亲身实证.md",
       "last_update": "2026-06-02",
-      "days_idle": 146,
+      "days_idle": 150,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/茶与食物属性-实践记录.md",
       "last_update": "2026-06-03",
-      "days_idle": 145,
+      "days_idle": 149,
       "source": "OBSERVED"
     },
     {
       "file": "practice-records/辟谷-服气法亲身实证.md",
       "last_update": "2026-06-02",
-      "days_idle": 146,
+      "days_idle": 150,
       "source": "OBSERVED"
     }
   ],
