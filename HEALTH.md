@@ -1,7 +1,7 @@
 <!-- 本文件由 scripts/health.py 生成，请勿手工编辑。手工维护的健康表一定会腐烂，而腐烂的诚实比不诚实更糟。 -->
 # 仓库健康度 · Repository Health
 
-> 生成时间：2026-11-02T06:57:24+00:00　｜　上一次快照见 `health-history.jsonl`
+> 生成时间：2026-11-09T07:22:50+00:00　｜　上一次快照见 `health-history.jsonl`
 
 > **发现并标注债务是成果，不是失分。** 真正该警惕的是「新增了内容，却没有新增任何债务」——那通常意味着没有认真标。
 
@@ -25,13 +25,13 @@
 
 | 位置 | 类型 | 开立 | 已挂 | 说明 |
 |---|---|---|---:|---|
-| `practice-records/tea-food-properties-practice.md`:3 | stale | 2026-07-31 | 94天 | 与 茶与食物属性-实践记录.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 |
-| `practice-records/vegetarian-practice.md`:3 | stale | 2026-07-31 | 94天 | 与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 |
-| `faq/why-restless-when-still.md`:98 | gap | 2026-07-31 | 94天 | 静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据） |
-| `practice-records/品古树茶-逐次记录.md`:184 | gap | 2026-08-01 | 93天 | 2026-07-31 那次品饮的客观项与汤色照片已录入，体感、冲泡参数、当日混杂变量三部分空缺，须由本人补填。禁止代写 |
-| `research/special-function-claims-in-practice-books.md`:129 | gap | 2026-08-05 | 89天 | 张宝胜案/1979耳朵认字/罕萨长寿三案的一手文献（原始报道、测试报告、调查记录）本仓尚未取得，现仅有公开报道层面的轮廓；在核到之前不把细节当作已确认事实 |
-| `research/inner-verification-and-tcm.md`:169 | gap | 2026-08-06 | 88天 | 经络学说起源的专门研究文献本仓尚未取得，且本仓无《灵枢》文本；第六节各候选解释仅列方向未核文献；2026-08-07 复核确认此债未因胎息经对照页而关闭 |
-| `research/taixi-and-xuanpin-cross-source.md`:162 | gap | 2026-08-08 | 86天 | 古文字学对「玄」「灵」等字的通说本仓无专门文献，只能指出所论非通说而不能定谳；另内证观察笔记PDF增订本未OCR，不能排除其另有玄字论述 |
+| `faq/why-restless-when-still.md`:98 | gap | 2026-07-31 | 101天 | 静坐类长期实证为空；茶记录不能填补（禅茶一味属E2c传统主张，非同一份观察数据） |
+| `practice-records/vegetarian-practice.md`:3 | stale | 2026-07-31 | 101天 | 与 素食-十年亲身实证.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 |
+| `practice-records/tea-food-properties-practice.md`:3 | stale | 2026-07-31 | 101天 | 与 茶与食物属性-实践记录.md 内容完全相同的重复副本，待按 STRUCTURE 正源登记表收编为指针 |
+| `practice-records/品古树茶-逐次记录.md`:184 | gap | 2026-08-01 | 100天 | 2026-07-31 那次品饮的客观项与汤色照片已录入，体感、冲泡参数、当日混杂变量三部分空缺，须由本人补填。禁止代写 |
+| `research/special-function-claims-in-practice-books.md`:129 | gap | 2026-08-05 | 96天 | 张宝胜案/1979耳朵认字/罕萨长寿三案的一手文献（原始报道、测试报告、调查记录）本仓尚未取得，现仅有公开报道层面的轮廓；在核到之前不把细节当作已确认事实 |
+| `research/inner-verification-and-tcm.md`:169 | gap | 2026-08-06 | 95天 | 经络学说起源的专门研究文献本仓尚未取得，且本仓无《灵枢》文本；第六节各候选解释仅列方向未核文献；2026-08-07 复核确认此债未因胎息经对照页而关闭 |
+| `research/taixi-and-xuanpin-cross-source.md`:162 | gap | 2026-08-08 | 93天 | 古文字学对「玄」「灵」等字的通说本仓无专门文献，只能指出所论非通说而不能定谳；另内证观察笔记PDF增订本未OCR，不能排除其另有玄字论述 |
 
 </details>
 
@@ -43,6 +43,15 @@
 | 「为什么是这一条」覆盖率（147 条内链） | 30.6% | ＝ |
 | 坏链 | 4 | ＝ |
 
+- ⚠️ 缺坐标：`navigation/sleep.md` → 一、先说结论：《老子》一侧没有讲睡眠的章节
+- ⚠️ 缺坐标：`navigation/sleep.md` → 🔁 换一个来源核对，结论一样
+- ⚠️ 缺坐标：`navigation/sleep.md` → 一之二、有一条是真的对题的：《黄帝内经》
+- ⚠️ 缺坐标：`navigation/sleep.md` → 如果你的问题是「躺下之后脑子停不下来」
+- ⚠️ 缺坐标：`navigation/sleep.md` → 如果你喝茶
+- ⚠️ 缺坐标：`navigation/sleep.md` → 三、现代常见的解释路径
+- ⚠️ 缺坐标：`navigation/sleep.md` → 四、可以做的三件事
+- ⚠️ 缺坐标：`navigation/sleep.md` → 五、⚠️ 什么时候该去看医生
+- ⚠️ 缺坐标：`navigation/sleep.md` → 六、这一页将来会不会有内容
 - ⚠️ 缺坐标：`navigation/BOOKS-MAP.md` → 〇、先说清楚这份对应是什么、不是什么
 - ⚠️ 缺坐标：`navigation/BOOKS-MAP.md` → 原因一：域的分布，恰好与「身体困扰」相反
 - ⚠️ 缺坐标：`navigation/BOOKS-MAP.md` → 原因三：实质内容全部在版权期内
@@ -54,15 +63,6 @@
 - ⚠️ 缺坐标：`navigation/BOOKS-MAP.md` → 《胎息经》——与上一条有可核的字面呼应
 - ⚠️ 缺坐标：`navigation/BOOKS-MAP.md` → 道经新发布各篇中，另有三章直接贴题
 - ⚠️ 缺坐标：`navigation/BOOKS-MAP.md` → 四、这份对应产生的四条改动
-- ⚠️ 缺坐标：`navigation/BOOKS-MAP.md` → 五、给维护者的两条观察（不改动，只记录）
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 一、你可能是这样的
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 二、最直接的一条：《黄帝内经》，公版
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 三、《老子》一侧的老实话
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 框架一：静不是停顿，而是一种起作用的状态
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 框架二：在还没累垮之前处理，比累垮之后补救容易
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 框架三：把「休息」放回节律里去看
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 五、现代常见的解释路径（与上面并列，不混为一谈）
-- ⚠️ 缺坐标：`navigation/fatigue.md` → 六、可以做的三件事
 - ❌ 坏链：`HEALTH.md` → `hunger.md`
 - ❌ 坏链：`HEALTH.md` → `fatigue.md`
 - ❌ 坏链：`HEALTH.md` → `anxiety.md`
@@ -74,12 +74,12 @@
 
 | 记录 | 最近观察 | 静默 | 取自 |
 |---|---|---:|---|
-| `practice-records/vegetarian-practice.md` | 2026-06-02 | 153 天　🔴 | OBSERVED |
-| `practice-records/素食-十年亲身实证.md` | 2026-06-02 | 153 天　🔴 | OBSERVED |
-| `practice-records/辟谷-服气法亲身实证.md` | 2026-06-02 | 153 天　🔴 | OBSERVED |
-| `practice-records/tea-food-properties-practice.md` | 2026-06-03 | 152 天　🔴 | OBSERVED |
-| `practice-records/茶与食物属性-实践记录.md` | 2026-06-03 | 152 天　🔴 | OBSERVED |
-| `practice-records/品古树茶-逐次记录.md` | 2026-07-31 | 94 天　🔴 | OBSERVED |
+| `practice-records/vegetarian-practice.md` | 2026-06-02 | 160 天　🔴 | OBSERVED |
+| `practice-records/素食-十年亲身实证.md` | 2026-06-02 | 160 天　🔴 | OBSERVED |
+| `practice-records/辟谷-服气法亲身实证.md` | 2026-06-02 | 160 天　🔴 | OBSERVED |
+| `practice-records/tea-food-properties-practice.md` | 2026-06-03 | 159 天　🔴 | OBSERVED |
+| `practice-records/茶与食物属性-实践记录.md` | 2026-06-03 | 159 天　🔴 | OBSERVED |
+| `practice-records/品古树茶-逐次记录.md` | 2026-07-31 | 101 天　🔴 | OBSERVED |
 
 > **取自 `OBSERVED`** ＝ 记录内 `<!-- OBSERVED: 日期 -->` 字段，由本人新增条目时更新；**`git兜底`** ＝ 该文件没有此字段，退回用「最后一次触碰该文件的提交」——**后者会被治理性编辑（改错别字、加标记）清零，不可当作真观察。**
 
